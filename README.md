@@ -1,7 +1,5 @@
 # SaferAgents: Multi-Agent Based Optimization Method for Unsafe Rust Code
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 本仓库是论文 **《基于多智能体的不安全Rust代码优化方法》**（SaferAgents: Multi-Agent Based Optimization Method for Unsafe Rust Code）的源代码。
 
 ## 概述
@@ -18,41 +16,15 @@ SaferAgents 是一种面向 C-to-Rust 翻译后工程的多智能体协同安全
 
 ```
 saferRust/
-├── saferAgent/                          # 主方法实现
-│   ├── agents/                          # 多智能体实现
-│   │   ├── safer_agent.py               # ★ 主入口 + 安全改写智能体
-│   │   ├── symbol_context_agent.py      # 上下文智能体
-│   │   ├── agentic_rag_agent.py         # Agentic RAG 检索模块
-│   │   ├── workspace_edit_agent.py      # 工作区编辑智能体
-│   │   └── compile_fix_agent.py         # 编译修复智能体
-│   ├── tools/                           # 工具函数
-│   │   └── workspace_edit_tools.py      # 工作区编辑工具（文件读写、搜索）
-│   ├── prompt/                          # 提示词模板
-│   │   ├── unsafeRustToSafeRust.md      # 安全改写主提示词
-│   │   ├── workspaceEditApply.md        # 工作区编辑提示词
-│   │   └── compileFixAfterRewrite.md    # 编译修复提示词
-│   ├── search/                          # 项目内搜索工具
-│   │   ├── config.yaml                  # 搜索工具配置
-│   │   └── bin/                         # 搜索脚本（find_file, search_file, search_dir）
-│   ├── analysis/                        # 实验分析脚本
-│   │   ├── analyze_rq1_translated_unsafe.py  # 翻译后 unsafe 率统计
-│   │   └── analyze_rq1_safer_unsafe_claude.py # 优化后 unsafe 率统计
-│   ├── unsafeRateCount/                 # unsafe 率统计输出
-│   ├── results/                         # 实验结果（按项目组织）
-│   └── apiyiTestkey.py                  # API 连通性测试脚本（从环境变量读取密钥）
-├── KonwledgebaseConstruct/              # 知识库构建模块
-│   ├── fetch_openharmony_rust_repos.py   # 获取目标领域 Rust 仓库列表
-│   ├── build_openharmony_third_party_rust_api_kb.py  # 构建 Rust API 知识库
-│   ├── openharmony_rust_repos.json       # 仓库列表
-│   ├── openharmony_third_party_rust_api_kb.json      # ★ 构建完成的 API 知识库
-│   └── openharmony_repo_cache/          # 仓库文档缓存
-├── His2TransData/                        # 实验数据集（5 个 OpenHarmony C-to-Rust 翻译项目）
-│   ├── appverify_lite__e5ebe91a98b9/
-│   ├── host__25c1898e1626/
-│   ├── osal__0bc4f21396ad/
-│   ├── shared__12e38ea922f7/
-│   └── shared__541f4e547bdb/
-└── function_level_unsafe_report.md       # 函数级 unsafe 变更报告
+├── saferAgent/                     # 主方法实现
+│   ├── agents/                     # 多智能体（安全改写、上下文、RAG、编译修复、工作区编辑）
+│   ├── tools/                      # 工作区编辑工具
+│   ├── prompt/                     # LLM 提示词模板
+│   ├── search/                     # 项目内搜索工具
+│   └── analysis/                   # 实验分析脚本
+├── KonwledgebaseConstruct/         # 领域 API 知识库构建模块
+├── His2TransData/                  # 实验数据集（5 个 OpenHarmony C-to-Rust 翻译项目）
+└── function_level_unsafe_report.md # 函数级 unsafe 变更报告
 ```
 
 ## 方法运行主入口
@@ -201,19 +173,3 @@ python analysis/analyze_rq1_safer_unsafe_claude.py
 - OpenAI 兼容的 LLM API 接口
 - Rust 工具链（用于 `cargo check` 验证）
 
-## 引用
-
-如果本工作对您的研究有帮助，请引用：
-
-```bibtex
-@article{chen2026saferagents,
-  title     = {基于多智能体的不安全{Rust}代码优化方法},
-  author    = {陈誉文 and 刘名威},
-  journal   = {},
-  year      = {2026},
-}
-```
-
-## License
-
-MIT License
