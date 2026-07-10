@@ -1,0 +1,419 @@
+{
+  "source": "https://gitee.com/organizations/openharmony/projects",
+  "search": "rust",
+  "generated_count": 103,
+  "repositories": [
+    {
+      "name": "commonlibrary_rust_ylong_http",
+      "url": "https://gitee.com/openharmony/commonlibrary_rust_ylong_http"
+    },
+    {
+      "name": "commonlibrary_rust_ylong_json",
+      "url": "https://gitee.com/openharmony/commonlibrary_rust_ylong_json"
+    },
+    {
+      "name": "commonlibrary_rust_ylong_runtime",
+      "url": "https://gitee.com/openharmony/commonlibrary_rust_ylong_runtime"
+    },
+    {
+      "name": "security_itrustee_ree_lite",
+      "url": "https://gitee.com/openharmony/security_itrustee_ree_lite"
+    },
+    {
+      "name": "third_party_rust_aho-corasick",
+      "url": "https://gitee.com/openharmony/third_party_rust_aho-corasick"
+    },
+    {
+      "name": "third_party_rust_atty",
+      "url": "https://gitee.com/openharmony/third_party_rust_atty"
+    },
+    {
+      "name": "third_party_rust_autocfg",
+      "url": "https://gitee.com/openharmony/third_party_rust_autocfg"
+    },
+    {
+      "name": "third_party_rust_bindgen",
+      "url": "https://gitee.com/openharmony/third_party_rust_bindgen"
+    },
+    {
+      "name": "third_party_rust_bitflags",
+      "url": "https://gitee.com/openharmony/third_party_rust_bitflags"
+    },
+    {
+      "name": "third_party_rust_bytes",
+      "url": "https://gitee.com/openharmony/third_party_rust_bytes"
+    },
+    {
+      "name": "third_party_rust_cc-rs",
+      "url": "https://gitee.com/openharmony/third_party_rust_cc-rs"
+    },
+    {
+      "name": "third_party_rust_cfg-if",
+      "url": "https://gitee.com/openharmony/third_party_rust_cfg-if"
+    },
+    {
+      "name": "third_party_rust_clang-sys",
+      "url": "https://gitee.com/openharmony/third_party_rust_clang-sys"
+    },
+    {
+      "name": "third_party_rust_clap",
+      "url": "https://gitee.com/openharmony/third_party_rust_clap"
+    },
+    {
+      "name": "third_party_rust_codespan",
+      "url": "https://gitee.com/openharmony/third_party_rust_codespan"
+    },
+    {
+      "name": "third_party_rust_cxx",
+      "url": "https://gitee.com/openharmony/third_party_rust_cxx"
+    },
+    {
+      "name": "third_party_rust_either",
+      "url": "https://gitee.com/openharmony/third_party_rust_either"
+    },
+    {
+      "name": "third_party_rust_encoding_rs",
+      "url": "https://gitee.com/openharmony/third_party_rust_encoding_rs"
+    },
+    {
+      "name": "third_party_rust_env_logger",
+      "url": "https://gitee.com/openharmony/third_party_rust_env_logger"
+    },
+    {
+      "name": "third_party_rust_foreign-types",
+      "url": "https://gitee.com/openharmony/third_party_rust_foreign-types"
+    },
+    {
+      "name": "third_party_rust_futures-rs",
+      "url": "https://gitee.com/openharmony/third_party_rust_futures-rs"
+    },
+    {
+      "name": "third_party_rust_glob",
+      "url": "https://gitee.com/openharmony/third_party_rust_glob"
+    },
+    {
+      "name": "third_party_rust_h2",
+      "url": "https://gitee.com/openharmony/third_party_rust_h2"
+    },
+    {
+      "name": "third_party_rust_hashbrown",
+      "url": "https://gitee.com/openharmony/third_party_rust_hashbrown"
+    },
+    {
+      "name": "third_party_rust_heck",
+      "url": "https://gitee.com/openharmony/third_party_rust_heck"
+    },
+    {
+      "name": "third_party_rust_http",
+      "url": "https://gitee.com/openharmony/third_party_rust_http"
+    },
+    {
+      "name": "third_party_rust_http-body",
+      "url": "https://gitee.com/openharmony/third_party_rust_http-body"
+    },
+    {
+      "name": "third_party_rust_httparse",
+      "url": "https://gitee.com/openharmony/third_party_rust_httparse"
+    },
+    {
+      "name": "third_party_rust_httpdate",
+      "url": "https://gitee.com/openharmony/third_party_rust_httpdate"
+    },
+    {
+      "name": "third_party_rust_humantime",
+      "url": "https://gitee.com/openharmony/third_party_rust_humantime"
+    },
+    {
+      "name": "third_party_rust_hyper",
+      "url": "https://gitee.com/openharmony/third_party_rust_hyper"
+    },
+    {
+      "name": "third_party_rust_hyper-tls",
+      "url": "https://gitee.com/openharmony/third_party_rust_hyper-tls"
+    },
+    {
+      "name": "third_party_rust_indexmap",
+      "url": "https://gitee.com/openharmony/third_party_rust_indexmap"
+    },
+    {
+      "name": "third_party_rust_io-lifetimes",
+      "url": "https://gitee.com/openharmony/third_party_rust_io-lifetimes"
+    },
+    {
+      "name": "third_party_rust_ipnet",
+      "url": "https://gitee.com/openharmony/third_party_rust_ipnet"
+    },
+    {
+      "name": "third_party_rust_is-terminal",
+      "url": "https://gitee.com/openharmony/third_party_rust_is-terminal"
+    },
+    {
+      "name": "third_party_rust_itoa",
+      "url": "https://gitee.com/openharmony/third_party_rust_itoa"
+    },
+    {
+      "name": "third_party_rust_lazy-static.rs",
+      "url": "https://gitee.com/openharmony/third_party_rust_lazy-static.rs"
+    },
+    {
+      "name": "third_party_rust_lazycell",
+      "url": "https://gitee.com/openharmony/third_party_rust_lazycell"
+    },
+    {
+      "name": "third_party_rust_libc",
+      "url": "https://gitee.com/openharmony/third_party_rust_libc"
+    },
+    {
+      "name": "third_party_rust_libloading",
+      "url": "https://gitee.com/openharmony/third_party_rust_libloading"
+    },
+    {
+      "name": "third_party_rust_link-cplusplus",
+      "url": "https://gitee.com/openharmony/third_party_rust_link-cplusplus"
+    },
+    {
+      "name": "third_party_rust_linux-raw-sys",
+      "url": "https://gitee.com/openharmony/third_party_rust_linux-raw-sys"
+    },
+    {
+      "name": "third_party_rust_log",
+      "url": "https://gitee.com/openharmony/third_party_rust_log"
+    },
+    {
+      "name": "third_party_rust_memchr",
+      "url": "https://gitee.com/openharmony/third_party_rust_memchr"
+    },
+    {
+      "name": "third_party_rust_memoffset",
+      "url": "https://gitee.com/openharmony/third_party_rust_memoffset"
+    },
+    {
+      "name": "third_party_rust_mime",
+      "url": "https://gitee.com/openharmony/third_party_rust_mime"
+    },
+    {
+      "name": "third_party_rust_minimal-lexical",
+      "url": "https://gitee.com/openharmony/third_party_rust_minimal-lexical"
+    },
+    {
+      "name": "third_party_rust_mio",
+      "url": "https://gitee.com/openharmony/third_party_rust_mio"
+    },
+    {
+      "name": "third_party_rust_nix",
+      "url": "https://gitee.com/openharmony/third_party_rust_nix"
+    },
+    {
+      "name": "third_party_rust_nom",
+      "url": "https://gitee.com/openharmony/third_party_rust_nom"
+    },
+    {
+      "name": "third_party_rust_num-traits",
+      "url": "https://gitee.com/openharmony/third_party_rust_num-traits"
+    },
+    {
+      "name": "third_party_rust_num_cpus",
+      "url": "https://gitee.com/openharmony/third_party_rust_num_cpus"
+    },
+    {
+      "name": "third_party_rust_once_cell",
+      "url": "https://gitee.com/openharmony/third_party_rust_once_cell"
+    },
+    {
+      "name": "third_party_rust_openssl-probe",
+      "url": "https://gitee.com/openharmony/third_party_rust_openssl-probe"
+    },
+    {
+      "name": "third_party_rust_os_str_bytes",
+      "url": "https://gitee.com/openharmony/third_party_rust_os_str_bytes"
+    },
+    {
+      "name": "third_party_rust_parking_lot",
+      "url": "https://gitee.com/openharmony/third_party_rust_parking_lot"
+    },
+    {
+      "name": "third_party_rust_peeking_take_while",
+      "url": "https://gitee.com/openharmony/third_party_rust_peeking_take_while"
+    },
+    {
+      "name": "third_party_rust_pin-project-lite",
+      "url": "https://gitee.com/openharmony/third_party_rust_pin-project-lite"
+    },
+    {
+      "name": "third_party_rust_pin-utils",
+      "url": "https://gitee.com/openharmony/third_party_rust_pin-utils"
+    },
+    {
+      "name": "third_party_rust_pkg-config-rs",
+      "url": "https://gitee.com/openharmony/third_party_rust_pkg-config-rs"
+    },
+    {
+      "name": "third_party_rust_proc-macro-error",
+      "url": "https://gitee.com/openharmony/third_party_rust_proc-macro-error"
+    },
+    {
+      "name": "third_party_rust_proc-macro2",
+      "url": "https://gitee.com/openharmony/third_party_rust_proc-macro2"
+    },
+    {
+      "name": "third_party_rust_quote",
+      "url": "https://gitee.com/openharmony/third_party_rust_quote"
+    },
+    {
+      "name": "third_party_rust_regex",
+      "url": "https://gitee.com/openharmony/third_party_rust_regex"
+    },
+    {
+      "name": "third_party_rust_reqwest",
+      "url": "https://gitee.com/openharmony/third_party_rust_reqwest"
+    },
+    {
+      "name": "third_party_rust_rust",
+      "url": "https://gitee.com/openharmony/third_party_rust_rust"
+    },
+    {
+      "name": "third_party_rust_rust-base64",
+      "url": "https://gitee.com/openharmony/third_party_rust_rust-base64"
+    },
+    {
+      "name": "third_party_rust_rust-cexpr",
+      "url": "https://gitee.com/openharmony/third_party_rust_rust-cexpr"
+    },
+    {
+      "name": "third_party_rust_rust-fnv",
+      "url": "https://gitee.com/openharmony/third_party_rust_rust-fnv"
+    },
+    {
+      "name": "third_party_rust_rust-native-tls",
+      "url": "https://gitee.com/openharmony/third_party_rust_rust-native-tls"
+    },
+    {
+      "name": "third_party_rust_rust-openssl",
+      "url": "https://gitee.com/openharmony/third_party_rust_rust-openssl"
+    },
+    {
+      "name": "third_party_rust_rust-smallvec",
+      "url": "https://gitee.com/openharmony/third_party_rust_rust-smallvec"
+    },
+    {
+      "name": "third_party_rust_rust-std-candidates",
+      "url": "https://gitee.com/openharmony/third_party_rust_rust-std-candidates"
+    },
+    {
+      "name": "third_party_rust_rust-url",
+      "url": "https://gitee.com/openharmony/third_party_rust_rust-url"
+    },
+    {
+      "name": "third_party_rust_rustc-hash",
+      "url": "https://gitee.com/openharmony/third_party_rust_rustc-hash"
+    },
+    {
+      "name": "third_party_rust_rustix",
+      "url": "https://gitee.com/openharmony/third_party_rust_rustix"
+    },
+    {
+      "name": "third_party_rust_ryu",
+      "url": "https://gitee.com/openharmony/third_party_rust_ryu"
+    },
+    {
+      "name": "third_party_rust_scopeguard",
+      "url": "https://gitee.com/openharmony/third_party_rust_scopeguard"
+    },
+    {
+      "name": "third_party_rust_serde",
+      "url": "https://gitee.com/openharmony/third_party_rust_serde"
+    },
+    {
+      "name": "third_party_rust_serde_urlencoded",
+      "url": "https://gitee.com/openharmony/third_party_rust_serde_urlencoded"
+    },
+    {
+      "name": "third_party_rust_shlex",
+      "url": "https://gitee.com/openharmony/third_party_rust_shlex"
+    },
+    {
+      "name": "third_party_rust_signal-hook",
+      "url": "https://gitee.com/openharmony/third_party_rust_signal-hook"
+    },
+    {
+      "name": "third_party_rust_slab",
+      "url": "https://gitee.com/openharmony/third_party_rust_slab"
+    },
+    {
+      "name": "third_party_rust_socket2",
+      "url": "https://gitee.com/openharmony/third_party_rust_socket2"
+    },
+    {
+      "name": "third_party_rust_static-assertions-rs",
+      "url": "https://gitee.com/openharmony/third_party_rust_static-assertions-rs"
+    },
+    {
+      "name": "third_party_rust_strsim-rs",
+      "url": "https://gitee.com/openharmony/third_party_rust_strsim-rs"
+    },
+    {
+      "name": "third_party_rust_syn",
+      "url": "https://gitee.com/openharmony/third_party_rust_syn"
+    },
+    {
+      "name": "third_party_rust_termcolor",
+      "url": "https://gitee.com/openharmony/third_party_rust_termcolor"
+    },
+    {
+      "name": "third_party_rust_tinyvec",
+      "url": "https://gitee.com/openharmony/third_party_rust_tinyvec"
+    },
+    {
+      "name": "third_party_rust_tinyvec_macros",
+      "url": "https://gitee.com/openharmony/third_party_rust_tinyvec_macros"
+    },
+    {
+      "name": "third_party_rust_tls",
+      "url": "https://gitee.com/openharmony/third_party_rust_tls"
+    },
+    {
+      "name": "third_party_rust_tokio",
+      "url": "https://gitee.com/openharmony/third_party_rust_tokio"
+    },
+    {
+      "name": "third_party_rust_tower",
+      "url": "https://gitee.com/openharmony/third_party_rust_tower"
+    },
+    {
+      "name": "third_party_rust_tracing",
+      "url": "https://gitee.com/openharmony/third_party_rust_tracing"
+    },
+    {
+      "name": "third_party_rust_try-lock",
+      "url": "https://gitee.com/openharmony/third_party_rust_try-lock"
+    },
+    {
+      "name": "third_party_rust_unicode-bidi",
+      "url": "https://gitee.com/openharmony/third_party_rust_unicode-bidi"
+    },
+    {
+      "name": "third_party_rust_unicode-ident",
+      "url": "https://gitee.com/openharmony/third_party_rust_unicode-ident"
+    },
+    {
+      "name": "third_party_rust_unicode-normalization",
+      "url": "https://gitee.com/openharmony/third_party_rust_unicode-normalization"
+    },
+    {
+      "name": "third_party_rust_unicode-width",
+      "url": "https://gitee.com/openharmony/third_party_rust_unicode-width"
+    },
+    {
+      "name": "third_party_rust_version_check",
+      "url": "https://gitee.com/openharmony/third_party_rust_version_check"
+    },
+    {
+      "name": "third_party_rust_want",
+      "url": "https://gitee.com/openharmony/third_party_rust_want"
+    },
+    {
+      "name": "third_party_rust_which-rs",
+      "url": "https://gitee.com/openharmony/third_party_rust_which-rs"
+    }
+  ]
+}

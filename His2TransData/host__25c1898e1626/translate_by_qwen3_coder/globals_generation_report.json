@@ -1,0 +1,721 @@
+{
+  "generated_at": "2026-01-19T16:18:18",
+  "mode": "bindgen_static",
+  "globals_total": 148,
+  "file_static_total": 0,
+  "module_local_static_total": 0,
+  "lifted_total": 0,
+  "bindgen_ok": 7,
+  "bindgen_missing_names": [
+    "DevSvcManagerClntGetDeviceObject",
+    "DevSvcManagerClntGetInstance",
+    "DevSvcManagerClntGetService",
+    "DevmgrServiceClntGetInstance",
+    "GetLastFatalMessage",
+    "HdfCStringObtain",
+    "HdfDeviceCreate",
+    "HdfDeviceGetServiceName",
+    "HdfDeviceInfoNewInstance",
+    "HdfDeviceNewInstance",
+    "HdfDeviceNodeNewInstance",
+    "HdfDeviceTokenCreate",
+    "HdfDeviceTokenNewInstance",
+    "HdfDriverLoaderCreate",
+    "HdfDriverLoaderGetDriver",
+    "HdfDriverLoaderGetInstance",
+    "HdfDriverLoaderLoadNode",
+    "HdfDriverManagerGetDriver",
+    "HdfDriverManagerGetDriverList",
+    "HdfIoServiceBind",
+    "HdfIoServiceGroupObtain",
+    "HdfLoadVdi",
+    "HdfObjectManagerGetCreators",
+    "HdfObjectManagerGetObject",
+    "HdfSListGetLast",
+    "HdfSListIteratorNext",
+    "HdfSListNext",
+    "HdfSListPeek",
+    "HdfSListPop",
+    "HdfSListSearch",
+    "HdfSbufBind",
+    "HdfSbufCopy",
+    "HdfSbufGetData",
+    "HdfSbufGetImpl",
+    "HdfSbufMove",
+    "HdfSbufObtain",
+    "HdfSbufObtainDefaultSize",
+    "HdfSbufReadRemoteService",
+    "HdfSbufReadString",
+    "HdfSbufReadString16",
+    "HdfSbufReadUnpadBuffer",
+    "HdfSbufTypedBind",
+    "HdfSbufTypedObtain",
+    "HdfSbufTypedObtainCapacity",
+    "HdfSbufTypedObtainInplace",
+    "HdfServiceObserverRecordObtain",
+    "HdfServiceSubscriberObtain",
+    "HdfStringCopy",
+    "OsalMemAlloc",
+    "OsalMemAllocAlign",
+    "OsalMemCalloc",
+    "ServStatListenerHolderCreate",
+    "ServStatListenerHolderGet",
+    "__errno_location",
+    "__memchr_chk",
+    "__memrchr_chk",
+    "__strchr_chk",
+    "__strrchr_chk",
+    "aligned_alloc",
+    "alloca",
+    "basename",
+    "bsearch",
+    "calloc",
+    "crypt",
+    "ctermid",
+    "cuserid",
+    "dlerror",
+    "dlopen",
+    "dlopen_ns",
+    "dlsym",
+    "dlvsym",
+    "ecvt",
+    "fcvt",
+    "fdopen",
+    "fdsan_get_fd_table",
+    "fdsan_get_tag_type",
+    "fgetln",
+    "fgets",
+    "fgets_unlocked",
+    "fmemopen",
+    "fopen",
+    "fopencookie",
+    "freopen",
+    "gcvt",
+    "get_current_dir_name",
+    "getcwd",
+    "getenv",
+    "getlogin",
+    "getpass",
+    "getusershell",
+    "index",
+    "initstate",
+    "l64a",
+    "malloc",
+    "memalign",
+    "memccpy",
+    "memchr",
+    "memcpy",
+    "memmem",
+    "memmove",
+    "mempcpy",
+    "memrchr",
+    "memset",
+    "mkdtemp",
+    "mktemp",
+    "open_memstream",
+    "popen",
+    "ptsname",
+    "realloc",
+    "reallocarray",
+    "realpath",
+    "rindex",
+    "sbrk",
+    "secure_getenv",
+    "seed48",
+    "setstate",
+    "stpcpy",
+    "stpncpy",
+    "strcasestr",
+    "strcat",
+    "strchr",
+    "strchrnul",
+    "strcpy",
+    "strdup",
+    "strerror",
+    "strerror_l",
+    "strncat",
+    "strncpy",
+    "strndup",
+    "strpbrk",
+    "strrchr",
+    "strsep",
+    "strsignal",
+    "strstr",
+    "strtok",
+    "strtok_r",
+    "tempnam",
+    "tmpfile",
+    "tmpnam",
+    "ttyname",
+    "valloc"
+  ],
+  "omitted_globals": [
+    {
+      "name": "DevSvcManagerClntGetDeviceObject",
+      "origin_file": "src_devsvc_manager_clnt"
+    },
+    {
+      "name": "DevSvcManagerClntGetInstance",
+      "origin_file": "src_devsvc_manager_clnt"
+    },
+    {
+      "name": "DevSvcManagerClntGetService",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "DevmgrServiceClntGetInstance",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "GetLastFatalMessage",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "HdfCStringObtain",
+      "origin_file": "src_hdf_service_observer"
+    },
+    {
+      "name": "HdfDeviceCreate",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfDeviceGetServiceName",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfDeviceInfoNewInstance",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfDeviceNewInstance",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfDeviceNodeNewInstance",
+      "origin_file": "src_devsvc_manager_clnt"
+    },
+    {
+      "name": "HdfDeviceTokenCreate",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfDeviceTokenNewInstance",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfDriverLoaderCreate",
+      "origin_file": "src_hdf_driver_loader"
+    },
+    {
+      "name": "HdfDriverLoaderGetDriver",
+      "origin_file": "src_hdf_driver_loader"
+    },
+    {
+      "name": "HdfDriverLoaderGetInstance",
+      "origin_file": "src_hdf_driver_loader"
+    },
+    {
+      "name": "HdfDriverLoaderLoadNode",
+      "origin_file": "src_hdf_driver_loader"
+    },
+    {
+      "name": "HdfDriverManagerGetDriver",
+      "origin_file": "src_devsvc_manager_clnt"
+    },
+    {
+      "name": "HdfDriverManagerGetDriverList",
+      "origin_file": "src_devsvc_manager_clnt"
+    },
+    {
+      "name": "HdfIoServiceBind",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfIoServiceGroupObtain",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfLoadVdi",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "HdfObjectManagerGetCreators",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfObjectManagerGetObject",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSListGetLast",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSListIteratorNext",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSListNext",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSListPeek",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSListPop",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSListSearch",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufBind",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufCopy",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufGetData",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufGetImpl",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufMove",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufObtain",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufObtainDefaultSize",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufReadRemoteService",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufReadString",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufReadString16",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufReadUnpadBuffer",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufTypedBind",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufTypedObtain",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufTypedObtainCapacity",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfSbufTypedObtainInplace",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "HdfServiceObserverRecordObtain",
+      "origin_file": "src_hdf_observer_record"
+    },
+    {
+      "name": "HdfServiceSubscriberObtain",
+      "origin_file": "src_hdf_observer_record"
+    },
+    {
+      "name": "HdfStringCopy",
+      "origin_file": "src_hdf_service_observer"
+    },
+    {
+      "name": "OsalMemAlloc",
+      "origin_file": "src_hdf_device"
+    },
+    {
+      "name": "OsalMemAllocAlign",
+      "origin_file": "src_hdf_device"
+    },
+    {
+      "name": "OsalMemCalloc",
+      "origin_file": "src_hdf_device"
+    },
+    {
+      "name": "ServStatListenerHolderCreate",
+      "origin_file": "src_devsvc_manager_clnt"
+    },
+    {
+      "name": "ServStatListenerHolderGet",
+      "origin_file": "src_devsvc_manager_clnt"
+    },
+    {
+      "name": "__errno_location",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "__memchr_chk",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "__memrchr_chk",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "__strchr_chk",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "__strrchr_chk",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "aligned_alloc",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "alloca",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "basename",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "bsearch",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "calloc",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "crypt",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "ctermid",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "cuserid",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "dlerror",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "dlopen",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "dlopen_ns",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "dlsym",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "dlvsym",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "ecvt",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "fcvt",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "fdopen",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "fdsan_get_fd_table",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "fdsan_get_tag_type",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "fgetln",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "fgets",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "fgets_unlocked",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "fmemopen",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "fopen",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "fopencookie",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "freopen",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "gcvt",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "get_current_dir_name",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "getcwd",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "getenv",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "getlogin",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "getpass",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "getusershell",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "index",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "initstate",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "l64a",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "malloc",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "memalign",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "memccpy",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "memchr",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "memcpy",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "memmem",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "memmove",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "mempcpy",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "memrchr",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "memset",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "mkdtemp",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "mktemp",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "open_memstream",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "popen",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "ptsname",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "realloc",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "reallocarray",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "realpath",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "rindex",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "sbrk",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "secure_getenv",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "seed48",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "setstate",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "stpcpy",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "stpncpy",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strcasestr",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strcat",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strchr",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strchrnul",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strcpy",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strdup",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strerror",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strerror_l",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strncat",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strncpy",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strndup",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strpbrk",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strrchr",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strsep",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strsignal",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strstr",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strtok",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "strtok_r",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "tempnam",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "tmpfile",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "tmpnam",
+      "origin_file": "src_devmgr_service_clnt"
+    },
+    {
+      "name": "ttyname",
+      "origin_file": "src_hdf_load_vdi"
+    },
+    {
+      "name": "valloc",
+      "origin_file": "src_hdf_load_vdi"
+    }
+  ],
+  "omitted_module_local_statics": [],
+  "enable_fallback": false,
+  "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/.preprocessed/tu_context_map.json"
+}

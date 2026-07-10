@@ -1,0 +1,17 @@
+{
+  "mode": "tu_truth",
+  "success": true,
+  "final_output_valid": true,
+  "compile_commands_loaded": true,
+  "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+  "tu_truth": {
+    "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/osal__0bc4f21396ad/workspace/.preprocessed/tu_context_map.json",
+    "generated_global_units": [
+      "src_osal_sysevent"
+    ],
+    "generated_local_units": [],
+    "global_missing_types": [],
+    "local_missing_types": {},
+    "skipped_missing_tu_i": []
+  }
+}

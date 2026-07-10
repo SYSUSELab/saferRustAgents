@@ -1,0 +1,961 @@
+{
+  "mode": "clang_preprocessed_bindgen",
+  "success": true,
+  "missing_types": [],
+  "source_scan_files": [
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_driver_loader.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/devmgr_service_clnt.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_service_observer.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_pm_reg.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/devsvc_manager_clnt.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/devhost_service.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_power_manager.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/power_state_token.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_device_token.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_service_subscriber.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_observer_record.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils/hcs_tree_if.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared/hdf_device_desc.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/shared/include/hdf_attribute_manager.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils/hdf_cstring.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared/hdf_device.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/uhdf/hdf_load_vdi.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils/hdf_base.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils/hdf_slist.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/shared/include/hdf_power_state.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared/hdf_device_node.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/dlfcn.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/shared/include/hdf_object_manager.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils/hdf_log.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared/hdf_driver.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/osal/shared/osal_mem.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared/hdf_device_object.h"
+  ],
+  "compile_commands_loaded": true,
+  "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+  "project_root": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626",
+  "ohos_root": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony",
+  "ohos_project_rel": "drivers/hdf_core/framework/core/host",
+  "bindgen_debug": true,
+  "bindgen_debug_keep_files": true,
+  "truth_mode": false,
+  "enable_types_rs_sanitizer": true,
+  "enable_tier_b": true,
+  "enable_tier_c_stub": true,
+  "has_multiple_build_profiles": false,
+  "multi_build_profiles": [],
+  "attempts": [
+    {
+      "tier": "A",
+      "attempt": 1,
+      "success": false,
+      "error": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/stdio.h:146:5: error: conflicting types for 'dprintf'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_printf.h:91:13: note: previous declaration is here\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Rel",
+      "missing_files": [],
+      "debug": {
+        "bindgen_debug": true,
+        "bindgen_debug_keep_files": true,
+        "compile_commands_loaded": true,
+        "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+        "include_dirs_input_count": 0,
+        "self_include_dirs_count": 3637,
+        "header_files_count": 28,
+        "header_files_included_count": 28,
+        "header_files_included_sample": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_driver_loader.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/devmgr_service_clnt.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_service_observer.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_pm_reg.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/devsvc_manager_clnt.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/devhost_service.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_power_manager.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/power_state_token.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_device_token.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_service_subscriber.h"
+        ],
+        "wrapper_need_struct_sched_param": true,
+        "wrapper_extra_system_includes": [],
+        "wrapper_headers_head": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_driver_loader.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/devmgr_service_clnt.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_service_observer.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_pm_reg.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/devsvc_manager_clnt.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/devhost_service.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_power_manager.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/power_state_token.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_device_token.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_service_subscriber.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include/hdf_observer_record.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils/hcs_tree_if.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared/hdf_device_desc.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/shared/include/hdf_attribute_manager.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils/hdf_cstring.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared/hdf_device.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/uhdf/hdf_load_vdi.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils/hdf_base.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils/hdf_slist.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/shared/include/hdf_power_state.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared/hdf_device_node.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/dlfcn.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/shared/include/hdf_object_manager.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils/hdf_log.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared/hdf_driver.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/osal/shared/osal_mem.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared/hdf_device_object.h"
+        ],
+        "wrapper_fixup_actions": [],
+        "wrapper_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/wrapper.h",
+        "wrapper_has_extern_c_guard": false,
+        "output_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/src/types.rs",
+        "bindgen_path": "/data/home/wangshb/.cargo/bin/bindgen",
+        "clang_mode": {
+          "rep_src_suffix": ".c",
+          "preferred": "c",
+          "attempts": [
+            {
+              "lang": "c",
+              "wrapper_round": 1,
+              "wrapper_need_struct_sched_param": false,
+              "returncode": 1,
+              "cpp_stdlib": {
+                "added": false
+              },
+              "stderr_head": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/bits/alltypes.h:101:22: error: field has incomplete type 'struct sched_param'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/bits/alltypes.h:101:10: note: forward declaration of 'struct sched_param'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/stdio.h:146:5: error: conflicting types for 'dprintf'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_printf.h:91:13: note: previous declaration is here\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/bits/alltypes.h:101:22: error: field has incomplete type 'struct sched_param'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/stdio.h:146:5: error: conflicting types for 'dprintf'\n",
+              "stderr_tail": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/bits/alltypes.h:101:22: error: field has incomplete type 'struct sched_param'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/bits/alltypes.h:101:10: note: forward declaration of 'struct sched_param'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/stdio.h:146:5: error: conflicting types for 'dprintf'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_printf.h:91:13: note: previous declaration is here\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/bits/alltypes.h:101:22: error: field has incomplete type 'struct sched_param'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/stdio.h:146:5: error: conflicting types for 'dprintf'\n",
+              "include_dirs": {
+                "unique_dir_count": 110,
+                "nonexistent_dir_count": 0,
+                "nonexistent_dir_sample": [],
+                "out_gen_dir_count": 0,
+                "out_gen_dir_existing_count": 0,
+                "include_order_sample": [
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/src/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/cpup"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/dynload/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/hidumper"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/kits"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/liteipc"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/NuttX/drivers/pipes"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/vdso/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/power"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/plimit"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/compat/posix/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd/kern"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd/compat/linuxkpi/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd/dev/usb"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/FreeBSD/sys/dev/evdev"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/vfs/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/vfs/include/bcache"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/FatFs/source"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/fat/virpart/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/proc/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/rootfs"
+                  ]
+                ]
+              }
+            },
+            {
+              "lang": "c",
+              "wrapper_round": 2,
+              "wrapper_need_struct_sched_param": true,
+              "returncode": 1,
+              "cpp_stdlib": {
+                "added": false
+              },
+              "stderr_head": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/stdio.h:146:5: error: conflicting types for 'dprintf'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_printf.h:91:13: note: previous declaration is here\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/stdio.h:146:5: error: conflicting types for 'dprintf'\n",
+              "stderr_tail": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/stdio.h:146:5: error: conflicting types for 'dprintf'\n/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_printf.h:91:13: note: previous declaration is here\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include/stdio.h:146:5: error: conflicting types for 'dprintf'\n",
+              "include_dirs": {
+                "unique_dir_count": 110,
+                "nonexistent_dir_count": 0,
+                "nonexistent_dir_sample": [],
+                "out_gen_dir_count": 0,
+                "out_gen_dir_existing_count": 0,
+                "include_order_sample": [
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/src/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/cpup"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/dynload/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/hidumper"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/kits"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/liteipc"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/NuttX/drivers/pipes"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/vdso/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/power"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/plimit"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/compat/posix/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd/kern"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd/compat/linuxkpi/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd/dev/usb"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/FreeBSD/sys/dev/evdev"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/vfs/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/vfs/include/bcache"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/FatFs/source"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/fat/virpart/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/proc/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/rootfs"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/src/devhost_service.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/host/src/devhost_service.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "src_devhost_service",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "8b0b36ef"
+          },
+          "entry_found": true,
+          "entry_file": "../../../drivers/hdf_core/framework/core/host/src/devhost_service.c",
+          "entry_directory": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus/hispark_taurus_mini_system",
+          "clang_flags_summary": {
+            "total": 226,
+            "D": 4,
+            "U": 0,
+            "I": 105,
+            "isystem": 2,
+            "include": 0,
+            "imacros": 1,
+            "sysroot": 1,
+            "target": 1
+          },
+          "clang_flags_raw_summary": {
+            "total": 228,
+            "D": 4,
+            "U": 0,
+            "I": 106,
+            "isystem": 2,
+            "include": 0,
+            "imacros": 1,
+            "sysroot": 1,
+            "target": 1
+          },
+          "include_dirs_raw_count": 108,
+          "include_dirs_norm_count": 107,
+          "include_dirs_dropped_count": 1,
+          "include_dirs_dropped_sample": [
+            "/data/home/wangshb/c2-rust_framework/SelfContained/drivers/hdf_core/framework/include/core"
+          ],
+          "include_dirs_dropped_out_gen_count": 0
+        },
+        "bindgen_cmd_len": 256,
+        "bindgen_cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-DUSB_DEBUG_VAR=5"
+        ],
+        "bindgen_cmd": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-DUSB_DEBUG_VAR=5",
+          "-DSECUREC_IN_KERNEL=0",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/src/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/cpup",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/dynload/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/hidumper",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/kits",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/kits/hilog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/hilog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/liteipc",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/NuttX/drivers/pipes",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/vdso/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/power",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/plimit",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/compat/posix/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd/kern",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd/compat/linuxkpi/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/bsd/dev/usb",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/FreeBSD/sys/dev/evdev",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/vfs/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/vfs/include/bcache",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/FatFs/source",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/fat/virpart/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/proc/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/fs/rootfs",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/drivers/block/disk/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/drivers/char/bch/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/drivers/char/mem/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/drivers/char/quickstart/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/drivers/char/random/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/NuttX/include/nuttx/video",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/drivers/mtd/multi_partition/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/security/cap",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/security/vid",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/net/telnet/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/net/mac",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/net/lwip-2.1/porting/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/lwip/src/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/shell/full/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/lib/libscrew/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/zlib",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/adapter/khdf/liteos/model/bus/usb/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/model/input/driver",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/model/input/driver/input_bus_ops",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/adapter/khdf/liteos/model/storage/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/adapter/khdf/liteos/model/storage/include/mmc",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/adapter/khdf/liteos/model/storage/include/mtd",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/model/storage/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/model/storage/include/mmc",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/model/storage/include/mtd",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/adapter/khdf/liteos/model/usb/host/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/model/usb/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/peripheral/usb/utils/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/adapter/khdf/liteos/network/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/model/network/common/netdevice",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/adapter/khdf/liteos/osal/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/adapter/khdf/liteos/platform/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/common/include/host",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/include/platform",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/fwk",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/adc",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/dac",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/dma",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/gpio",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/hdmi",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/i2c",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/i2s",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/i3c",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/mipi",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/pcie",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/pwm",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/pin",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/rtc",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/regulator",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/spi",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/uart",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/watchdog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/support/platform/include/timer",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/include/osal",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/include/utils",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/utils/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/core",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/utils",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/osal/shared",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/shared",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/include/net",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/include/wifi",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/host/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/manager/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/shared/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/common/include/manager",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/adapter/vnode/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/adapter/syscall/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/liteos/hievent/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/device/board/hisilicon/hispark_taurus/liteos_a/board",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/device/board/hisilicon/hispark_taurus/liteos_a/board/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/device/soc/hisilicon/common/platform/include/mtd/common/include",
+          "-isystem",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include",
+          "-mcpu=cortex-a7",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-imacros",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus/hispark_taurus_mini_system/config.h",
+          "-isystem",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/15.0.4/include",
+          "-mno-unaligned-access",
+          "--target=arm-liteos-ohos",
+          "--sysroot=/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/interfaces/inner_api/host/uhdf",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/include"
+        ]
+      }
+    },
+    {
+      "tier": "B",
+      "step": "clang_preprocess",
+      "success": true,
+      "output_size": 82737,
+      "debug": {
+        "include_dirs_count": 0,
+        "nonexistent_dir_count": 0,
+        "nonexistent_dir_sample": [],
+        "out_gen_dir_count": 0,
+        "out_gen_dir_existing_count": 0,
+        "clang": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang",
+        "lang": "c",
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/src/devhost_service.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/host/src/devhost_service.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "src_devhost_service",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "8b0b36ef"
+          },
+          "entry_found": true
+        },
+        "auto_resolve": null,
+        "wrapper_extra_system_includes": [],
+        "wrapper_fixup_actions": [],
+        "cmd_head": [
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang",
+          "-E",
+          "-P",
+          "-x",
+          "c",
+          "-DUSB_DEBUG_VAR=5",
+          "-DSECUREC_IN_KERNEL=0",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/src/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/cpup",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/dynload/include"
+        ],
+        "cmd_len": 238
+      }
+    },
+    {
+      "tier": "B",
+      "step": "bindgen_on_preprocessed",
+      "success": false,
+      "error": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/preprocessed_header.h:1539:5: error: conflicting types for 'dprintf'\n/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/preprocessed_header.h:1300:13: note: previous declaration is here\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/preprocessed_header.h:1539:5: error: conflicting types for 'dprintf'\n",
+      "debug": {
+        "include_dirs_count": 0,
+        "nonexistent_dir_count": 0,
+        "nonexistent_dir_sample": [],
+        "out_gen_dir_count": 0,
+        "out_gen_dir_existing_count": 0,
+        "returncode": 1,
+        "wrapper_extra_system_includes": [],
+        "wrapper_fixup_actions": [],
+        "stderr_tail": "",
+        "cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/preprocessed_header.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-mcpu=cortex-a7"
+        ],
+        "cmd_len": 30
+      }
+    },
+    {
+      "tier": "B",
+      "step": "clang_preprocess",
+      "success": true,
+      "output_size": 82748,
+      "debug": {
+        "include_dirs_count": 0,
+        "nonexistent_dir_count": 0,
+        "nonexistent_dir_sample": [],
+        "out_gen_dir_count": 0,
+        "out_gen_dir_existing_count": 0,
+        "clang": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang",
+        "lang": "c",
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/projects/host__25c1898e1626/src/devhost_service.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/drivers/hdf_core/framework/core/host/src/devhost_service.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "src_devhost_service",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "8b0b36ef"
+          },
+          "entry_found": true
+        },
+        "auto_resolve": null,
+        "wrapper_extra_system_includes": [],
+        "wrapper_fixup_actions": [
+          {
+            "action": "rename_conflicting_symbol",
+            "symbol": "dprintf",
+            "rename_to": "c2r_liteos_dprintf",
+            "reason": "tier_b_conflicting_types"
+          }
+        ],
+        "cmd_head": [
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang",
+          "-E",
+          "-P",
+          "-x",
+          "c",
+          "-DUSB_DEBUG_VAR=5",
+          "-DSECUREC_IN_KERNEL=0",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/src/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/cpup",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/extended/dynload/include"
+        ],
+        "cmd_len": 238
+      }
+    },
+    {
+      "tier": "B",
+      "step": "bindgen_on_preprocessed",
+      "success": true,
+      "debug": {
+        "include_dirs_count": 0,
+        "nonexistent_dir_count": 0,
+        "nonexistent_dir_sample": [],
+        "out_gen_dir_count": 0,
+        "out_gen_dir_existing_count": 0,
+        "returncode": 0,
+        "wrapper_extra_system_includes": [],
+        "wrapper_fixup_actions": [
+          {
+            "action": "rename_conflicting_symbol",
+            "symbol": "dprintf",
+            "rename_to": "c2r_liteos_dprintf",
+            "reason": "tier_b_conflicting_types"
+          }
+        ],
+        "cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/preprocessed_header.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/skeletons/host__25c1898e1626/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-mcpu=cortex-a7"
+        ],
+        "cmd_len": 30
+      }
+    }
+  ],
+  "final_output_valid": true,
+  "tu_truth": {
+    "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/host__25c1898e1626/workspace/.preprocessed/tu_context_map.json",
+    "generated_global_units": [],
+    "generated_local_units": [],
+    "global_missing_types": [],
+    "local_missing_types": {},
+    "skipped_missing_tu_i": []
+  }
+}

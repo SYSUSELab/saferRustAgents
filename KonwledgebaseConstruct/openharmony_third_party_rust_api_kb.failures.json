@@ -1,0 +1,517 @@
+[
+  {
+    "repo_name": "commonlibrary_rust_ylong_http",
+    "repo_url": "https://gitee.com/openharmony/commonlibrary_rust_ylong_http",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "commonlibrary_rust_ylong_json",
+    "repo_url": "https://gitee.com/openharmony/commonlibrary_rust_ylong_json",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "commonlibrary_rust_ylong_runtime",
+    "repo_url": "https://gitee.com/openharmony/commonlibrary_rust_ylong_runtime",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "security_itrustee_ree_lite",
+    "repo_url": "https://gitee.com/openharmony/security_itrustee_ree_lite",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_aho-corasick",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_aho-corasick",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_atty",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_atty",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_autocfg",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_autocfg",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_bindgen",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_bindgen",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_bitflags",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_bitflags",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_bytes",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_bytes",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_cc-rs",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_cc-rs",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_cfg-if",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_cfg-if",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_clang-sys",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_clang-sys",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_clap",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_clap",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_codespan",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_codespan",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_cxx",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_cxx",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_either",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_either",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_encoding_rs",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_encoding_rs",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_env_logger",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_env_logger",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_foreign-types",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_foreign-types",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_futures-rs",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_futures-rs",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_glob",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_glob",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_h2",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_h2",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_hashbrown",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_hashbrown",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_heck",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_heck",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_http",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_http",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_http-body",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_http-body",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_httparse",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_httparse",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_httpdate",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_httpdate",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_humantime",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_humantime",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_hyper",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_hyper",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_hyper-tls",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_hyper-tls",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_indexmap",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_indexmap",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_io-lifetimes",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_io-lifetimes",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_ipnet",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_ipnet",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_is-terminal",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_is-terminal",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_itoa",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_itoa",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_lazy-static.rs",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_lazy-static.rs",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_lazycell",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_lazycell",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_libc",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_libc",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_libloading",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_libloading",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_link-cplusplus",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_link-cplusplus",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_linux-raw-sys",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_linux-raw-sys",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_log",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_log",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_memchr",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_memchr",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_memoffset",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_memoffset",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_mime",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_mime",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_minimal-lexical",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_minimal-lexical",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_mio",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_mio",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_nix",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_nix",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_nom",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_nom",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_num-traits",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_num-traits",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_num_cpus",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_num_cpus",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_once_cell",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_once_cell",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_openssl-probe",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_openssl-probe",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_os_str_bytes",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_os_str_bytes",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_parking_lot",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_parking_lot",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_peeking_take_while",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_peeking_take_while",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_pin-project-lite",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_pin-project-lite",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_pin-utils",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_pin-utils",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_pkg-config-rs",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_pkg-config-rs",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_proc-macro-error",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_proc-macro-error",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_proc-macro2",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_proc-macro2",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_quote",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_quote",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_regex",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_regex",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_reqwest",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_reqwest",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rust",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rust",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rust-base64",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rust-base64",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rust-cexpr",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rust-cexpr",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rust-fnv",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rust-fnv",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rust-native-tls",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rust-native-tls",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rust-openssl",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rust-openssl",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rust-smallvec",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rust-smallvec",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rust-std-candidates",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rust-std-candidates",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rust-url",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rust-url",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rustc-hash",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rustc-hash",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_rustix",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_rustix",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_ryu",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_ryu",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_scopeguard",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_scopeguard",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_serde",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_serde",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_serde_urlencoded",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_serde_urlencoded",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_shlex",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_shlex",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_signal-hook",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_signal-hook",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_slab",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_slab",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_socket2",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_socket2",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_static-assertions-rs",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_static-assertions-rs",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_strsim-rs",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_strsim-rs",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_syn",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_syn",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_termcolor",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_termcolor",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_tinyvec",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_tinyvec",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_tinyvec_macros",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_tinyvec_macros",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_tls",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_tls",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_tokio",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_tokio",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_tower",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_tower",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_tracing",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_tracing",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_try-lock",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_try-lock",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_unicode-bidi",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_unicode-bidi",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_unicode-ident",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_unicode-ident",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_unicode-normalization",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_unicode-normalization",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_unicode-width",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_unicode-width",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_version_check",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_version_check",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_want",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_want",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  },
+  {
+    "repo_name": "third_party_rust_which-rs",
+    "repo_url": "https://gitee.com/openharmony/third_party_rust_which-rs",
+    "error": "name 'DEFAULT_REPO_PREFIX' is not defined"
+  }
+]

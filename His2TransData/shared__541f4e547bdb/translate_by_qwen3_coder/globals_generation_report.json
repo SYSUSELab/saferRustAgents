@@ -1,0 +1,431 @@
+{
+  "generated_at": "2026-01-19T16:18:05",
+  "mode": "bindgen_static",
+  "globals_total": 86,
+  "file_static_total": 0,
+  "module_local_static_total": 0,
+  "lifted_total": 0,
+  "bindgen_ok": 3,
+  "bindgen_missing_names": [
+    "DevSvcManagerClntGetService",
+    "DevSvcRecordNewInstance",
+    "HdfDeviceCreate",
+    "HdfDeviceGetServiceName",
+    "HdfDeviceInfoNewInstance",
+    "HdfDeviceNewInstance",
+    "HdfIoServiceAdapterObtain",
+    "HdfIoServiceAdapterPublish",
+    "HdfIoServiceBind",
+    "HdfIoServiceGroupObtain",
+    "HdfIoServicePublish",
+    "HdfObjectManagerGetCreators",
+    "HdfObjectManagerGetObject",
+    "HdfSListGetLast",
+    "HdfSListIteratorNext",
+    "HdfSListNext",
+    "HdfSListPeek",
+    "HdfSListPop",
+    "HdfSListSearch",
+    "HdfSbufBind",
+    "HdfSbufCopy",
+    "HdfSbufGetData",
+    "HdfSbufGetImpl",
+    "HdfSbufMove",
+    "HdfSbufObtain",
+    "HdfSbufObtainDefaultSize",
+    "HdfSbufReadRemoteService",
+    "HdfSbufReadString",
+    "HdfSbufReadString16",
+    "HdfSbufReadUnpadBuffer",
+    "HdfSbufTypedBind",
+    "HdfSbufTypedObtain",
+    "HdfSbufTypedObtainCapacity",
+    "HdfSbufTypedObtainInplace",
+    "IoServiceStatusListenerNewInstance",
+    "OsalMemAlloc",
+    "OsalMemAllocAlign",
+    "OsalMemCalloc",
+    "SvcMgrIoserviceGet",
+    "basename",
+    "ctermid",
+    "cuserid",
+    "fdopen",
+    "fgetln",
+    "fgets",
+    "fgets_unlocked",
+    "fmemopen",
+    "fopen",
+    "fopencookie",
+    "freopen",
+    "memccpy",
+    "memchr",
+    "memcpy",
+    "memmem",
+    "memmove",
+    "mempcpy",
+    "memrchr",
+    "memset",
+    "open_memstream",
+    "popen",
+    "stpcpy",
+    "stpncpy",
+    "strcasestr",
+    "strcat",
+    "strchr",
+    "strchrnul",
+    "strcpy",
+    "strdup",
+    "strerror",
+    "strerror_l",
+    "strncat",
+    "strncpy",
+    "strndup",
+    "strpbrk",
+    "strrchr",
+    "strsep",
+    "strsignal",
+    "strstr",
+    "strtok",
+    "strtok_r",
+    "tempnam",
+    "tmpfile",
+    "tmpnam"
+  ],
+  "omitted_globals": [
+    {
+      "name": "DevSvcManagerClntGetService",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "DevSvcRecordNewInstance",
+      "origin_file": "src_hdf_service_record"
+    },
+    {
+      "name": "HdfDeviceCreate",
+      "origin_file": "src_hdf_service_record"
+    },
+    {
+      "name": "HdfDeviceGetServiceName",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfDeviceInfoNewInstance",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfDeviceNewInstance",
+      "origin_file": "src_hdf_service_record"
+    },
+    {
+      "name": "HdfIoServiceAdapterObtain",
+      "origin_file": "src_hdf_io_service"
+    },
+    {
+      "name": "HdfIoServiceAdapterPublish",
+      "origin_file": "src_hdf_io_service"
+    },
+    {
+      "name": "HdfIoServiceBind",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfIoServiceGroupObtain",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfIoServicePublish",
+      "origin_file": "src_hdf_io_service"
+    },
+    {
+      "name": "HdfObjectManagerGetCreators",
+      "origin_file": "src_hdf_object_manager"
+    },
+    {
+      "name": "HdfObjectManagerGetObject",
+      "origin_file": "src_hdf_object_manager"
+    },
+    {
+      "name": "HdfSListGetLast",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSListIteratorNext",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSListNext",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSListPeek",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSListPop",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSListSearch",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufBind",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufCopy",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufGetData",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufGetImpl",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufMove",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufObtain",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufObtainDefaultSize",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufReadRemoteService",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufReadString",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufReadString16",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufReadUnpadBuffer",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufTypedBind",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufTypedObtain",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufTypedObtainCapacity",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "HdfSbufTypedObtainInplace",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "IoServiceStatusListenerNewInstance",
+      "origin_file": "src_ioserstat_listener"
+    },
+    {
+      "name": "OsalMemAlloc",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "OsalMemAllocAlign",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "OsalMemCalloc",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "SvcMgrIoserviceGet",
+      "origin_file": "src_svcmgr_ioservice"
+    },
+    {
+      "name": "basename",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "ctermid",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "cuserid",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "fdopen",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "fgetln",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "fgets",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "fgets_unlocked",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "fmemopen",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "fopen",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "fopencookie",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "freopen",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "memccpy",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "memchr",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "memcpy",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "memmem",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "memmove",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "mempcpy",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "memrchr",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "memset",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "open_memstream",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "popen",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "stpcpy",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "stpncpy",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strcasestr",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strcat",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strchr",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strchrnul",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strcpy",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strdup",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strerror",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strerror_l",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strncat",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strncpy",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strndup",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strpbrk",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strrchr",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strsep",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strsignal",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strstr",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strtok",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "strtok_r",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "tempnam",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "tmpfile",
+      "origin_file": "src_hdf_device_info"
+    },
+    {
+      "name": "tmpnam",
+      "origin_file": "src_hdf_device_info"
+    }
+  ],
+  "omitted_module_local_statics": [],
+  "enable_fallback": false,
+  "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/shared__541f4e547bdb/workspace/.preprocessed/tu_context_map.json"
+}

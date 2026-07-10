@@ -1,0 +1,2716 @@
+{
+  "mode": "bindgen",
+  "success": true,
+  "missing_types": [],
+  "source_scan_files": [
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h",
+    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_common.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON/cJSON.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/base64.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera/app_verify_base.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/platform.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/pk.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/md.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara/parameter.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.h",
+    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/x509_crt.h"
+  ],
+  "compile_commands_loaded": true,
+  "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+  "project_root": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9",
+  "ohos_root": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony",
+  "ohos_project_rel": "base/security/appverify/interfaces/innerkits/appverify_lite",
+  "bindgen_debug": true,
+  "bindgen_debug_keep_files": true,
+  "truth_mode": false,
+  "enable_types_rs_sanitizer": true,
+  "enable_tier_b": true,
+  "enable_tier_c_stub": true,
+  "has_multiple_build_profiles": false,
+  "multi_build_profiles": [],
+  "attempts": [
+    {
+      "tier": "A",
+      "attempt": 1,
+      "success": false,
+      "error": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot/usr/include/stdint.h:20:10: fatal error: 'bits/alltypes.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot/usr/include/stdint.h:20:10: fatal error: 'bits/alltypes.h' file not found\n\n",
+      "missing_files": [
+        "bits/alltypes.h"
+      ],
+      "debug": {
+        "bindgen_debug": true,
+        "bindgen_debug_keep_files": true,
+        "compile_commands_loaded": true,
+        "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+        "include_dirs_input_count": 0,
+        "self_include_dirs_count": 3640,
+        "header_files_count": 21,
+        "header_files_included_count": 21,
+        "header_files_included_sample": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h"
+        ],
+        "wrapper_need_struct_sched_param": false,
+        "wrapper_extra_system_includes": [],
+        "wrapper_headers_head": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_common.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON/cJSON.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/base64.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/platform.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/pk.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/md.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara/parameter.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/x509_crt.h"
+        ],
+        "wrapper_fixup_actions": [],
+        "wrapper_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+        "wrapper_has_extern_c_guard": false,
+        "output_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+        "bindgen_path": "/data/home/wangshb/.cargo/bin/bindgen",
+        "clang_mode": {
+          "rep_src_suffix": ".c",
+          "preferred": "c",
+          "attempts": [
+            {
+              "lang": "c",
+              "wrapper_round": 1,
+              "wrapper_need_struct_sched_param": false,
+              "returncode": 1,
+              "cpp_stdlib": {
+                "added": false
+              },
+              "stderr_head": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot/usr/include/stdint.h:20:10: fatal error: 'bits/alltypes.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot/usr/include/stdint.h:20:10: fatal error: 'bits/alltypes.h' file not found\n",
+              "stderr_tail": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot/usr/include/stdint.h:20:10: fatal error: 'bits/alltypes.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot/usr/include/stdint.h:20:10: fatal error: 'bits/alltypes.h' file not found\n",
+              "include_dirs": {
+                "unique_dir_count": 15,
+                "nonexistent_dir_count": 0,
+                "nonexistent_dir_sample": [],
+                "out_gen_dir_count": 0,
+                "out_gen_dir_existing_count": 0,
+                "include_order_sample": [
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "products_default_app_verify_default",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "88e3bb75"
+          },
+          "entry_found": true,
+          "entry_file": "../../../base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "entry_directory": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus/hispark_taurus_mini_system",
+          "clang_flags_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "clang_flags_raw_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "include_dirs_raw_count": 9,
+          "include_dirs_norm_count": 9,
+          "include_dirs_dropped_count": 0,
+          "include_dirs_dropped_sample": [],
+          "include_dirs_dropped_out_gen_count": 0
+        },
+        "bindgen_cmd_len": 66,
+        "bindgen_cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700"
+        ],
+        "bindgen_cmd": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700",
+          "-DOHOS_DEBUG",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mcpu=cortex-a7",
+          "-mno-unaligned-access",
+          "--target=arm-liteos-ohos",
+          "--sysroot=/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+        ],
+        "ohos_gen_ensure": {
+          "out_dir": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus",
+          "targets_count": 12,
+          "targets_head": [
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/annotation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyDebug.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyField.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFileLocation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFunction.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyIns.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLabel.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLiterals.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyProgram.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyRecord.pb.cc"
+          ],
+          "timeout_s": 600,
+          "returncode": 1,
+          "stdout_tail": "ninja: Entering directory `/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus'\n",
+          "stderr_tail": "ninja: error: toolchain.ninja:93490: multiple rules generate obj/build/templates/bpf/gen_bpf_uapi.stamp\n\n"
+        },
+        "missing_headers": [
+          "bits/alltypes.h"
+        ],
+        "missing_headers_count": 1
+      },
+      "auto_resolve": {
+        "resolved": {
+          "bits/alltypes.h": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include"
+        },
+        "unresolved": [],
+        "include_dirs_added": 1
+      }
+    },
+    {
+      "tier": "A",
+      "attempt": 2,
+      "success": false,
+      "error": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h:21:10: fatal error: 'mbedtls/pk.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h:21:10: fatal error: ",
+      "missing_files": [
+        "mbedtls/pk.h"
+      ],
+      "debug": {
+        "bindgen_debug": true,
+        "bindgen_debug_keep_files": true,
+        "compile_commands_loaded": true,
+        "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+        "include_dirs_input_count": 1,
+        "self_include_dirs_count": 3640,
+        "header_files_count": 21,
+        "header_files_included_count": 21,
+        "header_files_included_sample": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h"
+        ],
+        "wrapper_need_struct_sched_param": false,
+        "wrapper_extra_system_includes": [],
+        "wrapper_headers_head": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_common.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON/cJSON.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/base64.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/platform.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/pk.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/md.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara/parameter.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/x509_crt.h"
+        ],
+        "wrapper_fixup_actions": [],
+        "wrapper_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+        "wrapper_has_extern_c_guard": false,
+        "output_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+        "bindgen_path": "/data/home/wangshb/.cargo/bin/bindgen",
+        "clang_mode": {
+          "rep_src_suffix": ".c",
+          "preferred": "c",
+          "attempts": [
+            {
+              "lang": "c",
+              "wrapper_round": 1,
+              "wrapper_need_struct_sched_param": false,
+              "returncode": 1,
+              "cpp_stdlib": {
+                "added": false
+              },
+              "stderr_head": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h:21:10: fatal error: 'mbedtls/pk.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h:21:10: fatal error: 'mbedtls/pk.h' file not found\n",
+              "stderr_tail": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h:21:10: fatal error: 'mbedtls/pk.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h:21:10: fatal error: 'mbedtls/pk.h' file not found\n",
+              "include_dirs": {
+                "unique_dir_count": 16,
+                "nonexistent_dir_count": 0,
+                "nonexistent_dir_sample": [],
+                "out_gen_dir_count": 0,
+                "out_gen_dir_existing_count": 0,
+                "include_order_sample": [
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "products_default_app_verify_default",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "88e3bb75"
+          },
+          "entry_found": true,
+          "entry_file": "../../../base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "entry_directory": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus/hispark_taurus_mini_system",
+          "clang_flags_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "clang_flags_raw_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "include_dirs_raw_count": 9,
+          "include_dirs_norm_count": 9,
+          "include_dirs_dropped_count": 0,
+          "include_dirs_dropped_sample": [],
+          "include_dirs_dropped_out_gen_count": 0
+        },
+        "bindgen_cmd_len": 68,
+        "bindgen_cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700"
+        ],
+        "bindgen_cmd": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700",
+          "-DOHOS_DEBUG",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mcpu=cortex-a7",
+          "-mno-unaligned-access",
+          "--target=arm-liteos-ohos",
+          "--sysroot=/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+        ],
+        "ohos_gen_ensure": {
+          "out_dir": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus",
+          "targets_count": 12,
+          "targets_head": [
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/annotation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyDebug.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyField.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFileLocation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFunction.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyIns.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLabel.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLiterals.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyProgram.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyRecord.pb.cc"
+          ],
+          "timeout_s": 600,
+          "returncode": 1,
+          "stdout_tail": "ninja: Entering directory `/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus'\n",
+          "stderr_tail": "ninja: error: toolchain.ninja:93490: multiple rules generate obj/build/templates/bpf/gen_bpf_uapi.stamp\n\n"
+        },
+        "missing_headers": [
+          "mbedtls/pk.h"
+        ],
+        "missing_headers_count": 1
+      },
+      "auto_resolve": {
+        "resolved": {
+          "mbedtls/pk.h": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include"
+        },
+        "unresolved": [],
+        "include_dirs_added": 1
+      }
+    },
+    {
+      "tier": "A",
+      "attempt": 3,
+      "success": false,
+      "error": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/limits.h:8:10: fatal error: 'los_config.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/limits.h:8:10: fatal error: 'los_config.h' file not found\n\n",
+      "missing_files": [
+        "los_config.h"
+      ],
+      "debug": {
+        "bindgen_debug": true,
+        "bindgen_debug_keep_files": true,
+        "compile_commands_loaded": true,
+        "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+        "include_dirs_input_count": 2,
+        "self_include_dirs_count": 3640,
+        "header_files_count": 21,
+        "header_files_included_count": 21,
+        "header_files_included_sample": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h"
+        ],
+        "wrapper_need_struct_sched_param": false,
+        "wrapper_extra_system_includes": [],
+        "wrapper_headers_head": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_common.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON/cJSON.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/base64.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/platform.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/pk.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/md.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara/parameter.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/x509_crt.h"
+        ],
+        "wrapper_fixup_actions": [],
+        "wrapper_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+        "wrapper_has_extern_c_guard": false,
+        "output_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+        "bindgen_path": "/data/home/wangshb/.cargo/bin/bindgen",
+        "clang_mode": {
+          "rep_src_suffix": ".c",
+          "preferred": "c",
+          "attempts": [
+            {
+              "lang": "c",
+              "wrapper_round": 1,
+              "wrapper_need_struct_sched_param": false,
+              "returncode": 1,
+              "cpp_stdlib": {
+                "added": false
+              },
+              "stderr_head": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/limits.h:8:10: fatal error: 'los_config.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/limits.h:8:10: fatal error: 'los_config.h' file not found\n",
+              "stderr_tail": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/limits.h:8:10: fatal error: 'los_config.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include/limits.h:8:10: fatal error: 'los_config.h' file not found\n",
+              "include_dirs": {
+                "unique_dir_count": 17,
+                "nonexistent_dir_count": 0,
+                "nonexistent_dir_sample": [],
+                "out_gen_dir_count": 0,
+                "out_gen_dir_existing_count": 0,
+                "include_order_sample": [
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "products_default_app_verify_default",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "88e3bb75"
+          },
+          "entry_found": true,
+          "entry_file": "../../../base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "entry_directory": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus/hispark_taurus_mini_system",
+          "clang_flags_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "clang_flags_raw_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "include_dirs_raw_count": 9,
+          "include_dirs_norm_count": 9,
+          "include_dirs_dropped_count": 0,
+          "include_dirs_dropped_sample": [],
+          "include_dirs_dropped_out_gen_count": 0
+        },
+        "bindgen_cmd_len": 70,
+        "bindgen_cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700"
+        ],
+        "bindgen_cmd": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700",
+          "-DOHOS_DEBUG",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mcpu=cortex-a7",
+          "-mno-unaligned-access",
+          "--target=arm-liteos-ohos",
+          "--sysroot=/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+        ],
+        "ohos_gen_ensure": {
+          "out_dir": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus",
+          "targets_count": 12,
+          "targets_head": [
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/annotation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyDebug.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyField.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFileLocation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFunction.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyIns.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLabel.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLiterals.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyProgram.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyRecord.pb.cc"
+          ],
+          "timeout_s": 600,
+          "returncode": 1,
+          "stdout_tail": "ninja: Entering directory `/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus'\n",
+          "stderr_tail": "ninja: error: toolchain.ninja:93490: multiple rules generate obj/build/templates/bpf/gen_bpf_uapi.stamp\n\n"
+        },
+        "missing_headers": [
+          "los_config.h"
+        ],
+        "missing_headers_count": 1
+      },
+      "auto_resolve": {
+        "resolved": {
+          "los_config.h": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common"
+        },
+        "unresolved": [],
+        "include_dirs_added": 1
+      }
+    },
+    {
+      "tier": "A",
+      "attempt": 4,
+      "success": false,
+      "error": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:39:10: fatal error: 'los_tick.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:39:10: fatal error: 'los_tick.h' file not found\n\n",
+      "missing_files": [
+        "los_tick.h"
+      ],
+      "debug": {
+        "bindgen_debug": true,
+        "bindgen_debug_keep_files": true,
+        "compile_commands_loaded": true,
+        "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+        "include_dirs_input_count": 3,
+        "self_include_dirs_count": 3640,
+        "header_files_count": 21,
+        "header_files_included_count": 21,
+        "header_files_included_sample": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h"
+        ],
+        "wrapper_need_struct_sched_param": false,
+        "wrapper_extra_system_includes": [],
+        "wrapper_headers_head": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_common.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON/cJSON.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/base64.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/platform.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/pk.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/md.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara/parameter.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/x509_crt.h"
+        ],
+        "wrapper_fixup_actions": [],
+        "wrapper_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+        "wrapper_has_extern_c_guard": false,
+        "output_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+        "bindgen_path": "/data/home/wangshb/.cargo/bin/bindgen",
+        "clang_mode": {
+          "rep_src_suffix": ".c",
+          "preferred": "c",
+          "attempts": [
+            {
+              "lang": "c",
+              "wrapper_round": 1,
+              "wrapper_need_struct_sched_param": false,
+              "returncode": 1,
+              "cpp_stdlib": {
+                "added": false
+              },
+              "stderr_head": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:39:10: fatal error: 'los_tick.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:39:10: fatal error: 'los_tick.h' file not found\n",
+              "stderr_tail": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:39:10: fatal error: 'los_tick.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:39:10: fatal error: 'los_tick.h' file not found\n",
+              "include_dirs": {
+                "unique_dir_count": 18,
+                "nonexistent_dir_count": 0,
+                "nonexistent_dir_sample": [],
+                "out_gen_dir_count": 0,
+                "out_gen_dir_existing_count": 0,
+                "include_order_sample": [
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "products_default_app_verify_default",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "88e3bb75"
+          },
+          "entry_found": true,
+          "entry_file": "../../../base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "entry_directory": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus/hispark_taurus_mini_system",
+          "clang_flags_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "clang_flags_raw_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "include_dirs_raw_count": 9,
+          "include_dirs_norm_count": 9,
+          "include_dirs_dropped_count": 0,
+          "include_dirs_dropped_sample": [],
+          "include_dirs_dropped_out_gen_count": 0
+        },
+        "bindgen_cmd_len": 72,
+        "bindgen_cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700"
+        ],
+        "bindgen_cmd": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700",
+          "-DOHOS_DEBUG",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mcpu=cortex-a7",
+          "-mno-unaligned-access",
+          "--target=arm-liteos-ohos",
+          "--sysroot=/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+        ],
+        "ohos_gen_ensure": {
+          "out_dir": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus",
+          "targets_count": 12,
+          "targets_head": [
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/annotation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyDebug.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyField.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFileLocation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFunction.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyIns.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLabel.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLiterals.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyProgram.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyRecord.pb.cc"
+          ],
+          "timeout_s": 600,
+          "returncode": 1,
+          "stdout_tail": "ninja: Entering directory `/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus'\n",
+          "stderr_tail": "ninja: error: toolchain.ninja:93490: multiple rules generate obj/build/templates/bpf/gen_bpf_uapi.stamp\n\n"
+        },
+        "missing_headers": [
+          "los_tick.h"
+        ],
+        "missing_headers_count": 1
+      },
+      "auto_resolve": {
+        "resolved": {
+          "los_tick.h": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include"
+        },
+        "unresolved": [],
+        "include_dirs_added": 1
+      }
+    },
+    {
+      "tier": "A",
+      "attempt": 5,
+      "success": false,
+      "error": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_tick.h:42:10: fatal error: 'hal_timer.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_tick.h:42:10: fatal error: 'hal_timer.h' file not found\n\n",
+      "missing_files": [
+        "hal_timer.h"
+      ],
+      "debug": {
+        "bindgen_debug": true,
+        "bindgen_debug_keep_files": true,
+        "compile_commands_loaded": true,
+        "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+        "include_dirs_input_count": 4,
+        "self_include_dirs_count": 3640,
+        "header_files_count": 21,
+        "header_files_included_count": 21,
+        "header_files_included_sample": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h"
+        ],
+        "wrapper_need_struct_sched_param": false,
+        "wrapper_extra_system_includes": [],
+        "wrapper_headers_head": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_common.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON/cJSON.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/base64.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/platform.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/pk.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/md.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara/parameter.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/x509_crt.h"
+        ],
+        "wrapper_fixup_actions": [],
+        "wrapper_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+        "wrapper_has_extern_c_guard": false,
+        "output_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+        "bindgen_path": "/data/home/wangshb/.cargo/bin/bindgen",
+        "clang_mode": {
+          "rep_src_suffix": ".c",
+          "preferred": "c",
+          "attempts": [
+            {
+              "lang": "c",
+              "wrapper_round": 1,
+              "wrapper_need_struct_sched_param": false,
+              "returncode": 1,
+              "cpp_stdlib": {
+                "added": false
+              },
+              "stderr_head": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_tick.h:42:10: fatal error: 'hal_timer.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_tick.h:42:10: fatal error: 'hal_timer.h' file not found\n",
+              "stderr_tail": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_tick.h:42:10: fatal error: 'hal_timer.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include/los_tick.h:42:10: fatal error: 'hal_timer.h' file not found\n",
+              "include_dirs": {
+                "unique_dir_count": 19,
+                "nonexistent_dir_count": 0,
+                "nonexistent_dir_sample": [],
+                "out_gen_dir_count": 0,
+                "out_gen_dir_existing_count": 0,
+                "include_order_sample": [
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "products_default_app_verify_default",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "88e3bb75"
+          },
+          "entry_found": true,
+          "entry_file": "../../../base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "entry_directory": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus/hispark_taurus_mini_system",
+          "clang_flags_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "clang_flags_raw_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "include_dirs_raw_count": 9,
+          "include_dirs_norm_count": 9,
+          "include_dirs_dropped_count": 0,
+          "include_dirs_dropped_sample": [],
+          "include_dirs_dropped_out_gen_count": 0
+        },
+        "bindgen_cmd_len": 74,
+        "bindgen_cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700"
+        ],
+        "bindgen_cmd": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700",
+          "-DOHOS_DEBUG",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mcpu=cortex-a7",
+          "-mno-unaligned-access",
+          "--target=arm-liteos-ohos",
+          "--sysroot=/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+        ],
+        "ohos_gen_ensure": {
+          "out_dir": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus",
+          "targets_count": 12,
+          "targets_head": [
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/annotation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyDebug.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyField.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFileLocation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFunction.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyIns.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLabel.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLiterals.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyProgram.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyRecord.pb.cc"
+          ],
+          "timeout_s": 600,
+          "returncode": 1,
+          "stdout_tail": "ninja: Entering directory `/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus'\n",
+          "stderr_tail": "ninja: error: toolchain.ninja:93490: multiple rules generate obj/build/templates/bpf/gen_bpf_uapi.stamp\n\n"
+        },
+        "missing_headers": [
+          "hal_timer.h"
+        ],
+        "missing_headers_count": 1
+      },
+      "auto_resolve": {
+        "resolved": {
+          "hal_timer.h": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include"
+        },
+        "unresolved": [],
+        "include_dirs_added": 1
+      }
+    },
+    {
+      "tier": "A",
+      "attempt": 6,
+      "success": false,
+      "error": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:40:10: fatal error: 'los_vm_zone.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:40:10: fatal error: 'los_vm_zone.h' file not found\n\n",
+      "missing_files": [
+        "los_vm_zone.h"
+      ],
+      "debug": {
+        "bindgen_debug": true,
+        "bindgen_debug_keep_files": true,
+        "compile_commands_loaded": true,
+        "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+        "include_dirs_input_count": 5,
+        "self_include_dirs_count": 3640,
+        "header_files_count": 21,
+        "header_files_included_count": 21,
+        "header_files_included_sample": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h"
+        ],
+        "wrapper_need_struct_sched_param": false,
+        "wrapper_extra_system_includes": [],
+        "wrapper_headers_head": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_common.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON/cJSON.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/base64.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/platform.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/pk.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/md.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara/parameter.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/x509_crt.h"
+        ],
+        "wrapper_fixup_actions": [],
+        "wrapper_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+        "wrapper_has_extern_c_guard": false,
+        "output_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+        "bindgen_path": "/data/home/wangshb/.cargo/bin/bindgen",
+        "clang_mode": {
+          "rep_src_suffix": ".c",
+          "preferred": "c",
+          "attempts": [
+            {
+              "lang": "c",
+              "wrapper_round": 1,
+              "wrapper_need_struct_sched_param": false,
+              "returncode": 1,
+              "cpp_stdlib": {
+                "added": false
+              },
+              "stderr_head": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:40:10: fatal error: 'los_vm_zone.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:40:10: fatal error: 'los_vm_zone.h' file not found\n",
+              "stderr_tail": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:40:10: fatal error: 'los_vm_zone.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common/los_config.h:40:10: fatal error: 'los_vm_zone.h' file not found\n",
+              "include_dirs": {
+                "unique_dir_count": 20,
+                "nonexistent_dir_count": 0,
+                "nonexistent_dir_sample": [],
+                "out_gen_dir_count": 0,
+                "out_gen_dir_existing_count": 0,
+                "include_order_sample": [
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "products_default_app_verify_default",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "88e3bb75"
+          },
+          "entry_found": true,
+          "entry_file": "../../../base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "entry_directory": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus/hispark_taurus_mini_system",
+          "clang_flags_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "clang_flags_raw_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "include_dirs_raw_count": 9,
+          "include_dirs_norm_count": 9,
+          "include_dirs_dropped_count": 0,
+          "include_dirs_dropped_sample": [],
+          "include_dirs_dropped_out_gen_count": 0
+        },
+        "bindgen_cmd_len": 76,
+        "bindgen_cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700"
+        ],
+        "bindgen_cmd": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700",
+          "-DOHOS_DEBUG",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mcpu=cortex-a7",
+          "-mno-unaligned-access",
+          "--target=arm-liteos-ohos",
+          "--sysroot=/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+        ],
+        "ohos_gen_ensure": {
+          "out_dir": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus",
+          "targets_count": 12,
+          "targets_head": [
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/annotation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyDebug.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyField.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFileLocation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFunction.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyIns.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLabel.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLiterals.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyProgram.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyRecord.pb.cc"
+          ],
+          "timeout_s": 600,
+          "returncode": 1,
+          "stdout_tail": "ninja: Entering directory `/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus'\n",
+          "stderr_tail": "ninja: error: toolchain.ninja:93490: multiple rules generate obj/build/templates/bpf/gen_bpf_uapi.stamp\n\n"
+        },
+        "missing_headers": [
+          "los_vm_zone.h"
+        ],
+        "missing_headers_count": 1
+      },
+      "auto_resolve": {
+        "resolved": {
+          "los_vm_zone.h": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include"
+        },
+        "unresolved": [],
+        "include_dirs_added": 1
+      }
+    },
+    {
+      "tier": "A",
+      "attempt": 7,
+      "success": false,
+      "error": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include/los_vm_zone.h:35:10: fatal error: 'target_config.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include/los_vm_zone.h:35:10: fatal error: 'target_config.h' file not found\n\n",
+      "missing_files": [
+        "target_config.h"
+      ],
+      "debug": {
+        "bindgen_debug": true,
+        "bindgen_debug_keep_files": true,
+        "compile_commands_loaded": true,
+        "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+        "include_dirs_input_count": 6,
+        "self_include_dirs_count": 3640,
+        "header_files_count": 21,
+        "header_files_included_count": 21,
+        "header_files_included_sample": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h"
+        ],
+        "wrapper_need_struct_sched_param": false,
+        "wrapper_extra_system_includes": [],
+        "wrapper_headers_head": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_common.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON/cJSON.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/base64.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/platform.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/pk.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/md.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara/parameter.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/x509_crt.h"
+        ],
+        "wrapper_fixup_actions": [],
+        "wrapper_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+        "wrapper_has_extern_c_guard": false,
+        "output_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+        "bindgen_path": "/data/home/wangshb/.cargo/bin/bindgen",
+        "clang_mode": {
+          "rep_src_suffix": ".c",
+          "preferred": "c",
+          "attempts": [
+            {
+              "lang": "c",
+              "wrapper_round": 1,
+              "wrapper_need_struct_sched_param": false,
+              "returncode": 1,
+              "cpp_stdlib": {
+                "added": false
+              },
+              "stderr_head": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include/los_vm_zone.h:35:10: fatal error: 'target_config.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include/los_vm_zone.h:35:10: fatal error: 'target_config.h' file not found\n",
+              "stderr_tail": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include/los_vm_zone.h:35:10: fatal error: 'target_config.h' file not found\nUnable to generate bindings: clang diagnosed error: /data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include/los_vm_zone.h:35:10: fatal error: 'target_config.h' file not found\n",
+              "include_dirs": {
+                "unique_dir_count": 21,
+                "nonexistent_dir_count": 0,
+                "nonexistent_dir_sample": [],
+                "out_gen_dir_count": 0,
+                "out_gen_dir_existing_count": 0,
+                "include_order_sample": [
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "products_default_app_verify_default",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "88e3bb75"
+          },
+          "entry_found": true,
+          "entry_file": "../../../base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "entry_directory": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus/hispark_taurus_mini_system",
+          "clang_flags_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "clang_flags_raw_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "include_dirs_raw_count": 9,
+          "include_dirs_norm_count": 9,
+          "include_dirs_dropped_count": 0,
+          "include_dirs_dropped_sample": [],
+          "include_dirs_dropped_out_gen_count": 0
+        },
+        "bindgen_cmd_len": 78,
+        "bindgen_cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700"
+        ],
+        "bindgen_cmd": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700",
+          "-DOHOS_DEBUG",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mcpu=cortex-a7",
+          "-mno-unaligned-access",
+          "--target=arm-liteos-ohos",
+          "--sysroot=/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+        ],
+        "ohos_gen_ensure": {
+          "out_dir": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus",
+          "targets_count": 12,
+          "targets_head": [
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/annotation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyDebug.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyField.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFileLocation.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyFunction.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyIns.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLabel.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyLiterals.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyProgram.pb.cc",
+            "clang_x64/gen/arkcompiler/ets_frontend/merge_abc/protos_generated/assemblyRecord.pb.cc"
+          ],
+          "timeout_s": 600,
+          "returncode": 1,
+          "stdout_tail": "ninja: Entering directory `/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus'\n",
+          "stderr_tail": "ninja: error: toolchain.ninja:93490: multiple rules generate obj/build/templates/bpf/gen_bpf_uapi.stamp\n\n"
+        },
+        "missing_headers": [
+          "target_config.h"
+        ],
+        "missing_headers_count": 1
+      },
+      "auto_resolve": {
+        "resolved": {
+          "target_config.h": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/device/board/hisilicon/hispark_taurus/liteos_a/board"
+        },
+        "unresolved": [],
+        "include_dirs_added": 1
+      }
+    },
+    {
+      "tier": "A",
+      "attempt": 8,
+      "success": true,
+      "error": null,
+      "missing_files": [],
+      "debug": {
+        "bindgen_debug": true,
+        "bindgen_debug_keep_files": true,
+        "compile_commands_loaded": true,
+        "compile_commands_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/shared/ohos_profiles/compile_commands/out__hispark_taurus/compile_commands.json",
+        "include_dirs_input_count": 7,
+        "self_include_dirs_count": 3640,
+        "header_files_count": 21,
+        "header_files_included_count": 21,
+        "header_files_included_sample": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h"
+        ],
+        "wrapper_need_struct_sched_param": false,
+        "wrapper_extra_system_includes": [],
+        "wrapper_headers_head": [
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_provision.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_file.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hal.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_pub.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_centraldirectory.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_verify_hap.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/mbedtls_pkcs7.h",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include/app_common.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON/cJSON.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/base64.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include/securec.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera/app_verify_base.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/platform.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/pk.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/md.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara/parameter.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.h",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls/x509_crt.h"
+        ],
+        "wrapper_fixup_actions": [],
+        "wrapper_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+        "wrapper_has_extern_c_guard": false,
+        "output_path": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+        "bindgen_path": "/data/home/wangshb/.cargo/bin/bindgen",
+        "clang_mode": {
+          "rep_src_suffix": ".c",
+          "preferred": "c",
+          "attempts": [
+            {
+              "lang": "c",
+              "wrapper_round": 1,
+              "wrapper_need_struct_sched_param": false,
+              "returncode": 0,
+              "cpp_stdlib": {
+                "added": false
+              },
+              "include_dirs": {
+                "unique_dir_count": 22,
+                "nonexistent_dir_count": 0,
+                "nonexistent_dir_sample": [],
+                "out_gen_dir_count": 0,
+                "out_gen_dir_existing_count": 0,
+                "include_order_sample": [
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/device/board/hisilicon/hispark_taurus/liteos_a/board"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default"
+                  ],
+                  [
+                    "-I",
+                    "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        "tu_context": {
+          "rep_src": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default/app_verify_default.c",
+          "mapped_src": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "used_proxy": false,
+          "tu_context_map_used": true,
+          "tu_context_safe_name": "products_default_app_verify_default",
+          "match_info": {
+            "reason": "tu_context_map",
+            "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/.preprocessed/tu_context_map.json",
+            "entry_hash": "88e3bb75"
+          },
+          "entry_found": true,
+          "entry_file": "../../../base/security/appverify/interfaces/innerkits/appverify_lite/products/default/app_verify_default.c",
+          "entry_directory": "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/out/hispark_taurus/hispark_taurus_mini_system",
+          "clang_flags_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "clang_flags_raw_summary": {
+            "total": 30,
+            "D": 4,
+            "U": 0,
+            "I": 9,
+            "isystem": 0,
+            "include": 0,
+            "imacros": 0,
+            "sysroot": 1,
+            "target": 1
+          },
+          "include_dirs_raw_count": 9,
+          "include_dirs_norm_count": 9,
+          "include_dirs_dropped_count": 0,
+          "include_dirs_dropped_sample": [],
+          "include_dirs_dropped_out_gen_count": 0
+        },
+        "bindgen_cmd_len": 80,
+        "bindgen_cmd_head": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700"
+        ],
+        "bindgen_returncode": 0,
+        "bindgen_cmd": [
+          "/data/home/wangshb/.cargo/bin/bindgen",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/wrapper.h",
+          "-o",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/skeletons/appverify_lite__e5ebe91a98b9/src/types.rs",
+          "--no-layout-tests",
+          "--no-doc-comments",
+          "--use-core",
+          "--default-enum-style=consts",
+          "--no-prepend-enum-name",
+          "--ignore-functions",
+          "--no-size_t-is-usize",
+          "--",
+          "-x",
+          "c",
+          "-Wno-error",
+          "-Wno-error=register",
+          "-Wno-incompatible-library-redeclaration",
+          "-Wno-shift-op-parentheses",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-macro-redefined",
+          "-Wno-builtin-macro-redefined",
+          "-Wno-pragma-once-outside-header",
+          "-Wno-ignored-attributes",
+          "-D_XOPEN_SOURCE=700",
+          "-DOHOS_DEBUG",
+          "-D__LITEOS__",
+          "-D__LITEOS_A__",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/ipcamera",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/syspara",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits/hilog",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/hiviewdfx/hilog_lite/interfaces/native/innerkits",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/bounds_checking_function/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/token",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/startup/init/interfaces/innerkits/include/param",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mfloat-abi=softfp",
+          "-mfpu=neon-vfpv4",
+          "-mcpu=cortex-a7",
+          "-mno-unaligned-access",
+          "--target=arm-liteos-ohos",
+          "--sysroot=/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/prebuilts/ohos-sdk/linux/13/native/sysroot",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/device/board/hisilicon/hispark_taurus/liteos_a/board",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/arch/arm/arm/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/base/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/common",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/kernel/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/musl/porting/liteos_a/kernel/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/base/security/appverify/interfaces/innerkits/appverify_lite/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/cJSON",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/SelfContained/ohos_full/OpenHarmony-v5.0.1-Release/OpenHarmony/third_party/mbedtls/include/mbedtls",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/include",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/default",
+          "-I",
+          "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/projects/appverify_lite__e5ebe91a98b9/products/ipcamera"
+        ]
+      }
+    }
+  ],
+  "final_output_valid": true,
+  "tu_truth": {
+    "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/.preprocessed/tu_context_map.json",
+    "generated_global_units": [],
+    "generated_local_units": [],
+    "global_missing_types": [
+      "c_bool"
+    ],
+    "local_missing_types": {},
+    "skipped_missing_tu_i": []
+  }
+}

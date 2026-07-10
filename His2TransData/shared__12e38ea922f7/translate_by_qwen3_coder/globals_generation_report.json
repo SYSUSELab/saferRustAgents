@@ -1,0 +1,656 @@
+{
+  "generated_at": "2026-01-19T16:18:12",
+  "mode": "bindgen_static",
+  "globals_total": 136,
+  "file_static_total": 0,
+  "module_local_static_total": 0,
+  "lifted_total": 1,
+  "bindgen_ok": 8,
+  "bindgen_missing_names": [
+    "DevHostServiceClntNewInstance",
+    "DeviceAttributeDeserialize",
+    "DeviceResourceGetIfaceInstance",
+    "GetLastFatalMessage",
+    "HcsGetChildNode",
+    "HcsGetNodeByMatchAttr",
+    "HcsGetNodeByRefAttr",
+    "HcsGetRootNode",
+    "HdfDeviceCreate",
+    "HdfDeviceInfoNewInstance",
+    "HdfDeviceNewInstance",
+    "HdfGetHcsRootNode",
+    "HdfSListGetLast",
+    "HdfSListIteratorNext",
+    "HdfSListNext",
+    "HdfSListPeek",
+    "HdfSListPop",
+    "HdfSListSearch",
+    "HdfSbufBind",
+    "HdfSbufCopy",
+    "HdfSbufGetData",
+    "HdfSbufGetImpl",
+    "HdfSbufMove",
+    "HdfSbufObtain",
+    "HdfSbufObtainDefaultSize",
+    "HdfSbufReadRemoteService",
+    "HdfSbufReadString",
+    "HdfSbufReadString16",
+    "HdfSbufReadUnpadBuffer",
+    "HdfSbufTypedBind",
+    "HdfSbufTypedObtain",
+    "HdfSbufTypedObtainCapacity",
+    "HdfSbufTypedObtainInplace",
+    "MapGet",
+    "OsalMemAlloc",
+    "OsalMemAllocAlign",
+    "OsalMemCalloc",
+    "___errno_location",
+    "__errno_location",
+    "__libc_calloc",
+    "__libc_malloc",
+    "__libc_malloc_impl",
+    "__libc_realloc",
+    "__memchr_chk",
+    "__memrchr",
+    "__memrchr_chk",
+    "__randname",
+    "__stpcpy",
+    "__stpncpy",
+    "__strchr_chk",
+    "__strchrnul",
+    "__strrchr_chk",
+    "aligned_alloc",
+    "alloca",
+    "basename",
+    "bsearch",
+    "calloc",
+    "crypt",
+    "ctermid",
+    "cuserid",
+    "ecvt",
+    "fcvt",
+    "fdopen",
+    "fdsan_get_fd_table",
+    "fdsan_get_tag_type",
+    "fgetln",
+    "fgets",
+    "fgets_unlocked",
+    "fmemopen",
+    "fopen",
+    "fopencookie",
+    "freopen",
+    "gcvt",
+    "get_current_dir_name",
+    "getcwd",
+    "getenv",
+    "getlogin",
+    "getpass",
+    "getusershell",
+    "initstate",
+    "l64a",
+    "malloc",
+    "memalign",
+    "memccpy",
+    "memchr",
+    "memcpy",
+    "memmem",
+    "memmove",
+    "mempcpy",
+    "memrchr",
+    "memset",
+    "mkdtemp",
+    "mktemp",
+    "open_memstream",
+    "popen",
+    "ptsname",
+    "realloc",
+    "reallocarray",
+    "realpath",
+    "sbrk",
+    "secure_getenv",
+    "seed48",
+    "setstate",
+    "stpcpy",
+    "stpncpy",
+    "strcasestr",
+    "strcat",
+    "strchr",
+    "strchrnul",
+    "strcpy",
+    "strdup",
+    "strerror",
+    "strerror_l",
+    "strncat",
+    "strncpy",
+    "strndup",
+    "strpbrk",
+    "strrchr",
+    "strsep",
+    "strsignal",
+    "strstr",
+    "strtok",
+    "strtok_r",
+    "tempnam",
+    "tmpfile",
+    "tmpnam",
+    "ttyname",
+    "valloc"
+  ],
+  "omitted_globals": [
+    {
+      "name": "DevHostServiceClntNewInstance",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "DeviceAttributeDeserialize",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "DeviceResourceGetIfaceInstance",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "GetLastFatalMessage",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HcsGetChildNode",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "HcsGetNodeByMatchAttr",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "HcsGetNodeByRefAttr",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "HcsGetRootNode",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "HdfDeviceCreate",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "HdfDeviceInfoNewInstance",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfDeviceNewInstance",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "HdfGetHcsRootNode",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "HdfSListGetLast",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSListIteratorNext",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSListNext",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSListPeek",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSListPop",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSListSearch",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufBind",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufCopy",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufGetData",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufGetImpl",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufMove",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufObtain",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufObtainDefaultSize",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufReadRemoteService",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufReadString",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufReadString16",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufReadUnpadBuffer",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufTypedBind",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufTypedObtain",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufTypedObtainCapacity",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "HdfSbufTypedObtainInplace",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "MapGet",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "OsalMemAlloc",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "OsalMemAllocAlign",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "OsalMemCalloc",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "___errno_location",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "__errno_location",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "__libc_calloc",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "__libc_malloc",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "__libc_malloc_impl",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "__libc_realloc",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "__memchr_chk",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "__memrchr",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "__memrchr_chk",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "__randname",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "__stpcpy",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "__stpncpy",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "__strchr_chk",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "__strchrnul",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "__strrchr_chk",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "aligned_alloc",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "alloca",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "basename",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "bsearch",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "calloc",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "crypt",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "ctermid",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "cuserid",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "ecvt",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "fcvt",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "fdopen",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "fdsan_get_fd_table",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "fdsan_get_tag_type",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "fgetln",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "fgets",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "fgets_unlocked",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "fmemopen",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "fopen",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "fopencookie",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "freopen",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "gcvt",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "get_current_dir_name",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "getcwd",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "getenv",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "getlogin",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "getpass",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "getusershell",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "initstate",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "l64a",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "malloc",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "memalign",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "memccpy",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "memchr",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "memcpy",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "memmem",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "memmove",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "mempcpy",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "memrchr",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "memset",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "mkdtemp",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "mktemp",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "open_memstream",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "popen",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "ptsname",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "realloc",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "reallocarray",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "realpath",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "sbrk",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "secure_getenv",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "seed48",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "setstate",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "stpcpy",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "stpncpy",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strcasestr",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strcat",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strchr",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strchrnul",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strcpy",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strdup",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strerror",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strerror_l",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strncat",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strncpy",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strndup",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strpbrk",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strrchr",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strsep",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strsignal",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strstr",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strtok",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "strtok_r",
+      "origin_file": "src_dev_attribute_serialize"
+    },
+    {
+      "name": "tempnam",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "tmpfile",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "tmpnam",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "ttyname",
+      "origin_file": "src_hcb_config_entry"
+    },
+    {
+      "name": "valloc",
+      "origin_file": "src_hcb_config_entry"
+    }
+  ],
+  "omitted_module_local_statics": [],
+  "enable_fallback": false,
+  "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/shared__12e38ea922f7/workspace/.preprocessed/tu_context_map.json"
+}

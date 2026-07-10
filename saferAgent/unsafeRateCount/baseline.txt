@@ -1,0 +1,226 @@
+RQ1 translated-target unsafe analysis
+rq1_root: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1
+runs: claude, k1, k10, k3, k5
+project_filter: ALL
+compare_full: False
+show_file_metrics: False
+
+== claude ==
+summary: projects=5, files=34, code_lines=9344, unsafe_total_lines=6465 (69.1888%)
+         unsafe_keyword_lines=858 (9.1824%), unsafe_context_lines=6464 (69.1781%), unsafe_items=866
+
+[appverify_lite__e5ebe91a98b9]
+selection=manifest, files=10, code_lines=5634, total_lines=6723
+unsafe_total_lines=4104 (72.8435%), unsafe_keyword_lines=491 (8.7149%), unsafe_context_lines=4104 (72.8435%)
+unsafe_items=499 (block=499, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=499
+included_files[10]: products_default_app_verify_default.rs, products_ipcamera_app_verify_base.rs, src_app_centraldirectory.rs, src_app_common.rs, src_app_file.rs, src_app_provision.rs, src_app_verify.rs, src_app_verify_hal.rs, src_app_verify_hap.rs, src_mbedtls_pkcs7.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/claude/intermediate/appverify_lite__e5ebe91a98b9/workspace/extracted/appverify_lite__e5ebe91a98b9/functions_manifest.json
+
+[host__25c1898e1626]
+selection=manifest, files=14, code_lines=2848, total_lines=3561
+unsafe_total_lines=1844 (64.7472%), unsafe_keyword_lines=294 (10.3230%), unsafe_context_lines=1844 (64.7472%)
+unsafe_items=294 (block=279, fn=15, impl=0, trait=0), unsafe_keyword_occurrences=294
+included_files[14]: src_devhost_service.rs, src_devmgr_service_clnt.rs, src_devsvc_manager_clnt.rs, src_hdf_device.rs, src_hdf_device_node.rs, src_hdf_device_object.rs, src_hdf_device_token.rs, src_hdf_driver_loader.rs, src_hdf_load_vdi.rs, src_hdf_observer_record.rs, src_hdf_power_manager.rs, src_hdf_service_observer.rs, src_hdf_service_subscriber.rs, src_power_state_token.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/claude/intermediate/host__25c1898e1626/workspace/extracted/host__25c1898e1626/functions_manifest.json
+
+[osal__0bc4f21396ad]
+selection=manifest, files=1, code_lines=265, total_lines=344
+unsafe_total_lines=179 (67.5472%), unsafe_keyword_lines=24 (9.0566%), unsafe_context_lines=179 (67.5472%)
+unsafe_items=24 (block=24, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=24
+included_files[1]: src_osal_sysevent.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/claude/intermediate/osal__0bc4f21396ad/workspace/extracted/osal__0bc4f21396ad/functions_manifest.json
+
+[shared__12e38ea922f7]
+selection=manifest, files=2, code_lines=143, total_lines=382
+unsafe_total_lines=91 (63.6364%), unsafe_keyword_lines=10 (6.9930%), unsafe_context_lines=91 (63.6364%)
+unsafe_items=10 (block=10, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=10
+included_files[2]: src_dev_attribute_serialize.rs, src_hcb_config_entry.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/claude/intermediate/shared__12e38ea922f7/workspace/extracted/shared__12e38ea922f7/functions_manifest.json
+
+[shared__541f4e547bdb]
+selection=manifest, files=7, code_lines=454, total_lines=573
+unsafe_total_lines=247 (54.4053%), unsafe_keyword_lines=39 (8.5903%), unsafe_context_lines=246 (54.1850%)
+unsafe_items=39 (block=37, fn=2, impl=0, trait=0), unsafe_keyword_occurrences=39
+included_files[7]: src_hdf_device_info.rs, src_hdf_io_service.rs, src_hdf_object_manager.rs, src_hdf_service_record.rs, src_ioserstat_listener.rs, src_service_status.rs, src_svcmgr_ioservice.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/claude/intermediate/shared__541f4e547bdb/workspace/extracted/shared__541f4e547bdb/functions_manifest.json
+
+== k1 ==
+summary: projects=5, files=34, code_lines=8212, unsafe_total_lines=5133 (62.5061%)
+         unsafe_keyword_lines=940 (11.4467%), unsafe_context_lines=5133 (62.5061%), unsafe_items=943
+
+[appverify_lite__e5ebe91a98b9]
+selection=manifest, files=10, code_lines=4986, total_lines=6464
+unsafe_total_lines=3213 (64.4404%), unsafe_keyword_lines=545 (10.9306%), unsafe_context_lines=3213 (64.4404%)
+unsafe_items=547 (block=547, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=547
+included_files[10]: products_default_app_verify_default.rs, products_ipcamera_app_verify_base.rs, src_app_centraldirectory.rs, src_app_common.rs, src_app_file.rs, src_app_provision.rs, src_app_verify.rs, src_app_verify_hal.rs, src_app_verify_hap.rs, src_mbedtls_pkcs7.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k1/intermediate/appverify_lite__e5ebe91a98b9/workspace/extracted/appverify_lite__e5ebe91a98b9/functions_manifest.json
+
+[host__25c1898e1626]
+selection=manifest, files=14, code_lines=2650, total_lines=3246
+unsafe_total_lines=1586 (59.8491%), unsafe_keyword_lines=344 (12.9811%), unsafe_context_lines=1586 (59.8491%)
+unsafe_items=345 (block=345, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=345
+included_files[14]: src_devhost_service.rs, src_devmgr_service_clnt.rs, src_devsvc_manager_clnt.rs, src_hdf_device.rs, src_hdf_device_node.rs, src_hdf_device_object.rs, src_hdf_device_token.rs, src_hdf_driver_loader.rs, src_hdf_load_vdi.rs, src_hdf_observer_record.rs, src_hdf_power_manager.rs, src_hdf_service_observer.rs, src_hdf_service_subscriber.rs, src_power_state_token.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k1/intermediate/host__25c1898e1626/workspace/extracted/host__25c1898e1626/functions_manifest.json
+
+[osal__0bc4f21396ad]
+selection=manifest, files=1, code_lines=55, total_lines=404
+unsafe_total_lines=32 (58.1818%), unsafe_keyword_lines=7 (12.7273%), unsafe_context_lines=32 (58.1818%)
+unsafe_items=7 (block=7, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=7
+included_files[1]: src_osal_sysevent.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k1/intermediate/osal__0bc4f21396ad/workspace/extracted/osal__0bc4f21396ad/functions_manifest.json
+
+[shared__12e38ea922f7]
+selection=manifest, files=2, code_lines=183, total_lines=379
+unsafe_total_lines=146 (79.7814%), unsafe_keyword_lines=7 (3.8251%), unsafe_context_lines=146 (79.7814%)
+unsafe_items=7 (block=7, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=7
+included_files[2]: src_dev_attribute_serialize.rs, src_hcb_config_entry.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k1/intermediate/shared__12e38ea922f7/workspace/extracted/shared__12e38ea922f7/functions_manifest.json
+
+[shared__541f4e547bdb]
+selection=manifest, files=7, code_lines=338, total_lines=647
+unsafe_total_lines=156 (46.1538%), unsafe_keyword_lines=37 (10.9467%), unsafe_context_lines=156 (46.1538%)
+unsafe_items=37 (block=37, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=37
+included_files[7]: src_hdf_device_info.rs, src_hdf_io_service.rs, src_hdf_object_manager.rs, src_hdf_service_record.rs, src_ioserstat_listener.rs, src_service_status.rs, src_svcmgr_ioservice.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k1/intermediate/shared__541f4e547bdb/workspace/extracted/shared__541f4e547bdb/functions_manifest.json
+
+== k10 ==
+summary: projects=5, files=34, code_lines=7779, unsafe_total_lines=4821 (61.9745%)
+         unsafe_keyword_lines=964 (12.3923%), unsafe_context_lines=4821 (61.9745%), unsafe_items=964
+
+[appverify_lite__e5ebe91a98b9]
+selection=manifest, files=10, code_lines=4447, total_lines=6501
+unsafe_total_lines=2809 (63.1662%), unsafe_keyword_lines=567 (12.7502%), unsafe_context_lines=2809 (63.1662%)
+unsafe_items=567 (block=567, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=567
+included_files[10]: products_default_app_verify_default.rs, products_ipcamera_app_verify_base.rs, src_app_centraldirectory.rs, src_app_common.rs, src_app_file.rs, src_app_provision.rs, src_app_verify.rs, src_app_verify_hal.rs, src_app_verify_hap.rs, src_mbedtls_pkcs7.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k10/intermediate/appverify_lite__e5ebe91a98b9/workspace/extracted/appverify_lite__e5ebe91a98b9/functions_manifest.json
+
+[host__25c1898e1626]
+selection=manifest, files=14, code_lines=2660, total_lines=3328
+unsafe_total_lines=1617 (60.7895%), unsafe_keyword_lines=331 (12.4436%), unsafe_context_lines=1617 (60.7895%)
+unsafe_items=331 (block=331, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=331
+included_files[14]: src_devhost_service.rs, src_devmgr_service_clnt.rs, src_devsvc_manager_clnt.rs, src_hdf_device.rs, src_hdf_device_node.rs, src_hdf_device_object.rs, src_hdf_device_token.rs, src_hdf_driver_loader.rs, src_hdf_load_vdi.rs, src_hdf_observer_record.rs, src_hdf_power_manager.rs, src_hdf_service_observer.rs, src_hdf_service_subscriber.rs, src_power_state_token.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k10/intermediate/host__25c1898e1626/workspace/extracted/host__25c1898e1626/functions_manifest.json
+
+[osal__0bc4f21396ad]
+selection=manifest, files=1, code_lines=128, total_lines=297
+unsafe_total_lines=80 (62.5000%), unsafe_keyword_lines=16 (12.5000%), unsafe_context_lines=80 (62.5000%)
+unsafe_items=16 (block=16, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=16
+included_files[1]: src_osal_sysevent.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k10/intermediate/osal__0bc4f21396ad/workspace/extracted/osal__0bc4f21396ad/functions_manifest.json
+
+[shared__12e38ea922f7]
+selection=manifest, files=2, code_lines=196, total_lines=389
+unsafe_total_lines=159 (81.1224%), unsafe_keyword_lines=8 (4.0816%), unsafe_context_lines=159 (81.1224%)
+unsafe_items=8 (block=8, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=8
+included_files[2]: src_dev_attribute_serialize.rs, src_hcb_config_entry.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k10/intermediate/shared__12e38ea922f7/workspace/extracted/shared__12e38ea922f7/functions_manifest.json
+
+[shared__541f4e547bdb]
+selection=manifest, files=7, code_lines=348, total_lines=669
+unsafe_total_lines=156 (44.8276%), unsafe_keyword_lines=42 (12.0690%), unsafe_context_lines=156 (44.8276%)
+unsafe_items=42 (block=42, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=42
+included_files[7]: src_hdf_device_info.rs, src_hdf_io_service.rs, src_hdf_object_manager.rs, src_hdf_service_record.rs, src_ioserstat_listener.rs, src_service_status.rs, src_svcmgr_ioservice.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k10/intermediate/shared__541f4e547bdb/workspace/extracted/shared__541f4e547bdb/functions_manifest.json
+
+== k3 ==
+summary: projects=5, files=34, code_lines=8079, unsafe_total_lines=5060 (62.6315%)
+         unsafe_keyword_lines=927 (11.4742%), unsafe_context_lines=5060 (62.6315%), unsafe_items=928
+
+[appverify_lite__e5ebe91a98b9]
+selection=manifest, files=10, code_lines=4707, total_lines=6364
+unsafe_total_lines=3089 (65.6257%), unsafe_keyword_lines=493 (10.4738%), unsafe_context_lines=3089 (65.6257%)
+unsafe_items=494 (block=494, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=494
+included_files[10]: products_default_app_verify_default.rs, products_ipcamera_app_verify_base.rs, src_app_centraldirectory.rs, src_app_common.rs, src_app_file.rs, src_app_provision.rs, src_app_verify.rs, src_app_verify_hal.rs, src_app_verify_hap.rs, src_mbedtls_pkcs7.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k3/intermediate/appverify_lite__e5ebe91a98b9/workspace/extracted/appverify_lite__e5ebe91a98b9/functions_manifest.json
+
+[host__25c1898e1626]
+selection=manifest, files=14, code_lines=2720, total_lines=3271
+unsafe_total_lines=1595 (58.6397%), unsafe_keyword_lines=373 (13.7132%), unsafe_context_lines=1595 (58.6397%)
+unsafe_items=373 (block=373, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=373
+included_files[14]: src_devhost_service.rs, src_devmgr_service_clnt.rs, src_devsvc_manager_clnt.rs, src_hdf_device.rs, src_hdf_device_node.rs, src_hdf_device_object.rs, src_hdf_device_token.rs, src_hdf_driver_loader.rs, src_hdf_load_vdi.rs, src_hdf_observer_record.rs, src_hdf_power_manager.rs, src_hdf_service_observer.rs, src_hdf_service_subscriber.rs, src_power_state_token.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k3/intermediate/host__25c1898e1626/workspace/extracted/host__25c1898e1626/functions_manifest.json
+
+[osal__0bc4f21396ad]
+selection=manifest, files=1, code_lines=82, total_lines=355
+unsafe_total_lines=48 (58.5366%), unsafe_keyword_lines=16 (19.5122%), unsafe_context_lines=48 (58.5366%)
+unsafe_items=16 (block=16, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=16
+included_files[1]: src_osal_sysevent.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k3/intermediate/osal__0bc4f21396ad/workspace/extracted/osal__0bc4f21396ad/functions_manifest.json
+
+[shared__12e38ea922f7]
+selection=manifest, files=2, code_lines=237, total_lines=308
+unsafe_total_lines=177 (74.6835%), unsafe_keyword_lines=11 (4.6414%), unsafe_context_lines=177 (74.6835%)
+unsafe_items=11 (block=11, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=11
+included_files[2]: src_dev_attribute_serialize.rs, src_hcb_config_entry.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k3/intermediate/shared__12e38ea922f7/workspace/extracted/shared__12e38ea922f7/functions_manifest.json
+
+[shared__541f4e547bdb]
+selection=manifest, files=7, code_lines=333, total_lines=663
+unsafe_total_lines=151 (45.3453%), unsafe_keyword_lines=34 (10.2102%), unsafe_context_lines=151 (45.3453%)
+unsafe_items=34 (block=34, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=34
+included_files[7]: src_hdf_device_info.rs, src_hdf_io_service.rs, src_hdf_object_manager.rs, src_hdf_service_record.rs, src_ioserstat_listener.rs, src_service_status.rs, src_svcmgr_ioservice.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k3/intermediate/shared__541f4e547bdb/workspace/extracted/shared__541f4e547bdb/functions_manifest.json
+
+== k5 ==
+summary: projects=5, files=34, code_lines=8127, unsafe_total_lines=5131 (63.1352%)
+         unsafe_keyword_lines=1034 (12.7230%), unsafe_context_lines=5131 (63.1352%), unsafe_items=1038
+
+[appverify_lite__e5ebe91a98b9]
+selection=manifest, files=10, code_lines=4702, total_lines=6096
+unsafe_total_lines=3071 (65.3126%), unsafe_keyword_lines=616 (13.1008%), unsafe_context_lines=3071 (65.3126%)
+unsafe_items=618 (block=618, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=618
+included_files[10]: products_default_app_verify_default.rs, products_ipcamera_app_verify_base.rs, src_app_centraldirectory.rs, src_app_common.rs, src_app_file.rs, src_app_provision.rs, src_app_verify.rs, src_app_verify_hal.rs, src_app_verify_hap.rs, src_mbedtls_pkcs7.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k5/intermediate/appverify_lite__e5ebe91a98b9/workspace/extracted/appverify_lite__e5ebe91a98b9/functions_manifest.json
+
+[host__25c1898e1626]
+selection=manifest, files=14, code_lines=2651, total_lines=3400
+unsafe_total_lines=1593 (60.0905%), unsafe_keyword_lines=348 (13.1271%), unsafe_context_lines=1593 (60.0905%)
+unsafe_items=350 (block=350, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=350
+included_files[14]: src_devhost_service.rs, src_devmgr_service_clnt.rs, src_devsvc_manager_clnt.rs, src_hdf_device.rs, src_hdf_device_node.rs, src_hdf_device_object.rs, src_hdf_device_token.rs, src_hdf_driver_loader.rs, src_hdf_load_vdi.rs, src_hdf_observer_record.rs, src_hdf_power_manager.rs, src_hdf_service_observer.rs, src_hdf_service_subscriber.rs, src_power_state_token.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k5/intermediate/host__25c1898e1626/workspace/extracted/host__25c1898e1626/functions_manifest.json
+
+[osal__0bc4f21396ad]
+selection=manifest, files=1, code_lines=138, total_lines=299
+unsafe_total_lines=90 (65.2174%), unsafe_keyword_lines=16 (11.5942%), unsafe_context_lines=90 (65.2174%)
+unsafe_items=16 (block=16, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=16
+included_files[1]: src_osal_sysevent.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k5/intermediate/osal__0bc4f21396ad/workspace/extracted/osal__0bc4f21396ad/functions_manifest.json
+
+[shared__12e38ea922f7]
+selection=manifest, files=2, code_lines=266, total_lines=339
+unsafe_total_lines=199 (74.8120%), unsafe_keyword_lines=15 (5.6391%), unsafe_context_lines=199 (74.8120%)
+unsafe_items=15 (block=15, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=15
+included_files[2]: src_dev_attribute_serialize.rs, src_hcb_config_entry.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k5/intermediate/shared__12e38ea922f7/workspace/extracted/shared__12e38ea922f7/functions_manifest.json
+
+[shared__541f4e547bdb]
+selection=manifest, files=7, code_lines=370, total_lines=653
+unsafe_total_lines=178 (48.1081%), unsafe_keyword_lines=39 (10.5405%), unsafe_context_lines=178 (48.1081%)
+unsafe_items=39 (block=39, fn=0, impl=0, trait=0), unsafe_keyword_occurrences=39
+included_files[7]: src_hdf_device_info.rs, src_hdf_io_service.rs, src_hdf_object_manager.rs, src_hdf_service_record.rs, src_ioserstat_listener.rs, src_service_status.rs, src_svcmgr_ioservice.rs
+excluded_files[5]: compat.rs, compatibility.rs, globals.rs, main.rs, types.rs
+manifest: /data/home/Cyw22331009/His2Trans/His2Trans/data/rq1/k5/intermediate/shared__541f4e547bdb/workspace/extracted/shared__541f4e547bdb/functions_manifest.json

@@ -1,0 +1,336 @@
+{
+  "generated_at": "2026-01-19T16:20:45",
+  "mode": "bindgen_static",
+  "globals_total": 67,
+  "file_static_total": 0,
+  "module_local_static_total": 0,
+  "lifted_total": 0,
+  "bindgen_ok": 3,
+  "bindgen_missing_names": [
+    "HdfIoServiceBind",
+    "HdfIoServiceGroupObtain",
+    "HdfSbufBind",
+    "HdfSbufCopy",
+    "HdfSbufGetData",
+    "HdfSbufGetImpl",
+    "HdfSbufMove",
+    "HdfSbufObtain",
+    "HdfSbufObtainDefaultSize",
+    "HdfSbufReadRemoteService",
+    "HdfSbufReadString",
+    "HdfSbufReadString16",
+    "HdfSbufReadUnpadBuffer",
+    "HdfSbufTypedBind",
+    "HdfSbufTypedObtain",
+    "HdfSbufTypedObtainCapacity",
+    "HdfSbufTypedObtainInplace",
+    "OsalMemAlloc",
+    "OsalMemAllocAlign",
+    "OsalMemCalloc",
+    "basename",
+    "ctermid",
+    "cuserid",
+    "fdopen",
+    "fgetln",
+    "fgets",
+    "fgets_unlocked",
+    "fmemopen",
+    "fopen",
+    "fopencookie",
+    "freopen",
+    "memccpy",
+    "memchr",
+    "memcpy",
+    "memmem",
+    "memmove",
+    "mempcpy",
+    "memrchr",
+    "memset",
+    "open_memstream",
+    "popen",
+    "stpcpy",
+    "stpncpy",
+    "strcasestr",
+    "strcat",
+    "strchr",
+    "strchrnul",
+    "strcpy",
+    "strdup",
+    "strerror",
+    "strerror_l",
+    "strncat",
+    "strncpy",
+    "strndup",
+    "strpbrk",
+    "strrchr",
+    "strsep",
+    "strsignal",
+    "strstr",
+    "strtok",
+    "strtok_r",
+    "tempnam",
+    "tmpfile",
+    "tmpnam"
+  ],
+  "omitted_globals": [
+    {
+      "name": "HdfIoServiceBind",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfIoServiceGroupObtain",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufBind",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufCopy",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufGetData",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufGetImpl",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufMove",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufObtain",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufObtainDefaultSize",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufReadRemoteService",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufReadString",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufReadString16",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufReadUnpadBuffer",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufTypedBind",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufTypedObtain",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufTypedObtainCapacity",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "HdfSbufTypedObtainInplace",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "OsalMemAlloc",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "OsalMemAllocAlign",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "OsalMemCalloc",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "basename",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "ctermid",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "cuserid",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "fdopen",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "fgetln",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "fgets",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "fgets_unlocked",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "fmemopen",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "fopen",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "fopencookie",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "freopen",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "memccpy",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "memchr",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "memcpy",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "memmem",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "memmove",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "mempcpy",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "memrchr",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "memset",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "open_memstream",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "popen",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "stpcpy",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "stpncpy",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strcasestr",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strcat",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strchr",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strchrnul",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strcpy",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strdup",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strerror",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strerror_l",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strncat",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strncpy",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strndup",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strpbrk",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strrchr",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strsep",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strsignal",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strstr",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strtok",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "strtok_r",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "tempnam",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "tmpfile",
+      "origin_file": "src_osal_sysevent"
+    },
+    {
+      "name": "tmpnam",
+      "origin_file": "src_osal_sysevent"
+    }
+  ],
+  "omitted_module_local_statics": [],
+  "enable_fallback": false,
+  "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/osal__0bc4f21396ad/workspace/.preprocessed/tu_context_map.json"
+}

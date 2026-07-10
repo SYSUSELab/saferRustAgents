@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-01-19T16:18:22",
+  "mode": "bindgen_static",
+  "globals_total": 6,
+  "file_static_total": 14,
+  "module_local_static_total": 14,
+  "lifted_total": 0,
+  "bindgen_ok": 20,
+  "bindgen_missing_names": [],
+  "omitted_globals": [],
+  "omitted_module_local_statics": [],
+  "enable_fallback": false,
+  "tu_context_map": "/data/home/wangshb/c2-rust_framework/translation_outputs/deepseek-coder-ohos5/intermediate/appverify_lite__e5ebe91a98b9/workspace/.preprocessed/tu_context_map.json"
+}

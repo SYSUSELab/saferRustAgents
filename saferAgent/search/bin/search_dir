@@ -1,0 +1,55 @@
+main() {
+    if [ $# -eq 1 ]; then
+        local search_term="$1"
+        local dir="./"
+    elif [ $# -eq 2 ]; then
+        local search_term="$1"
+        if [ -d "$2" ]; then
+            local dir="$2"
+        else
+            echo "Directory $2 not found"
+            return
+        fi
+    else
+        echo "Usage: search_dir <search_term> [<dir>]"
+        return
+    fi
+    dir=$(realpath "$dir")
+    local raw_matches
+    raw_matches=$(find "$dir" -type f ! -path '*/.*' -exec grep -nIH -- "$search_term" {} + 2>/dev/null)
+    # if no matches, return
+    if [ -z "$raw_matches" ]; then
+        echo "No matches found for \"$search_term\" in $dir"
+        return
+    fi
+    local matches
+    matches=$(echo "$raw_matches" | awk -F: '{count[$1]++} END {for (f in count) print count[f], f}' | sort -k2,2)
+    # Calculate total number of matches
+    local num_matches=$(echo "$matches" | awk '{sum+=$1} END {print sum}')
+    # calculate total number of files matched
+    local num_files=$(echo "$matches" | wc -l | awk '{$1=$1; print $0}')
+    # if num_files is > 100, print an error
+    if [ $num_files -gt 100 ]; then
+        echo "More than $num_files files matched for \"$search_term\" in $dir. Please narrow your search."
+        return
+    fi
+
+    echo "Found $num_matches matches for \"$search_term\" in $dir:"
+    while IFS= read -r match_line; do
+        [ -z "$match_line" ] && continue
+        local match_count="${match_line%% *}"
+        local file="${match_line#* }"
+        echo "$file ($match_count matches)"
+
+        local first_match
+        first_match=$(grep -nIHm 1 -- "$search_term" "$file")
+        local line_number
+        line_number=$(echo "$first_match" | cut -d: -f2)
+        local code_line
+        code_line=$(echo "$first_match" | cut -d: -f3-)
+        echo "Line $line_number:$code_line"
+    done <<< "$matches"
+    echo "End of matches for \"$search_term\" in $dir"
+}
+
+main "$@"

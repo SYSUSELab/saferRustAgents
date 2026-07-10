@@ -1,0 +1,12 @@
+{
+  "total": 163,
+  "translated": 163,
+  "compiled": 161,
+  "repaired": 43,
+  "c2rust_fallback": 2,
+  "failed": 2,
+  "skipped": 0,
+  "injection_failed": 0,
+  "still_unimplemented": 2,
+  "timeout_failed": 0
+}
